@@ -7,11 +7,27 @@ theme = "local-ea-template"
 # used to generate the site. You can find the template
 # at https://github.com/rtcharity/local-ea-template.
 [params]
+  # General site params
   fullTitle = "Effective Altruism Site Title"
   strapline = "Helping you do good better"
-  firstButtonText = "Get updates"
-  firstButtonLink = "http://ealondon.us5.list-manage.com/subscribe/post?u=7438f1bb80988376e9cae8c11&id=182579324a&SOURCE=Homepage&OPTIN=True&SUBREASON=you%20signed%20up%20to%20this%20list%20on%20the%20EA%20London%20website."
-  secondButtonText = "Join us on Facebook"
-  secondButtonLink = "https://www.facebook.com/groups/EALondon/"
-  thirdButtonLink = "Find us on Meetup"
-  secondButtonLink = "https://www.facebook.com/groups/EALondon/"
+
+  # Buttons under the main header
+  # You can use them to link to a mailing list or Facebook page
+  firstButtonText = "First Button Text"
+  firstButtonLink = ""
+  secondButtonText = "Second Button Text"
+  secondButtonLink = ""
+  # Remove the # before the text to add the optional Meetup button
+  # meetupButtonText = "Find us on Meetup"
+  # meetupButtonLink = ""
+
+  # Front page text; change as needed.
+  topBannerText = "Who are we?"
+  leadText = "We're a group of people who want to help you answer the question: how can I do good better?"
+  firstSectionHeader = "Doing good better"
+  firstSectionText = "We want to help you use evidence and reason to make the world a better place."
+  secondSectionHeader = "Building a community"
+  secondSectionText = "We are a welcoming group dedicated to promoting, inspiring and supporting one another to achieve altruistic goals."
+  thirdSectionHeader = "Finding better ways to help"
+  thirdSectionText = "Some projects are thousands of times more effective than others. We apply logic and research to maximise our impact."
+  bottomBannerText = "A proud member of the effective altruism network"

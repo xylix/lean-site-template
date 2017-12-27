@@ -1,3 +1,3 @@
-© 2017 Effective Altruism London
+© 2017 Effective Altruism <CITY HERE>
 
-Effective Altruism London is a registered charity in England and Wales, Registered Charity Number 1170614
+Effective Altruism <CITY HERE> is a registered charity in <LOCATIONS HERE>, Registered Charity Number <NUMBER HERE>
