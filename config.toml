@@ -27,8 +27,8 @@ theme = "local-ea-template"
   # You will need to change these if your page is not in English;
   # otherwise, you can leave these alone
   navBarHome = "Home"
-  navBarAboutUs= "About Us"
-  navBarContactUs= "Contact Us"
+  navBarAbout= "About"
+  navBarContact= "Contact Us"
 
   ## -- BUTTONS -- ##
   # These are the buttons right under the header that appears on the main page.
