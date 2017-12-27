@@ -7,23 +7,31 @@ theme = "local-ea-template"
 # used to generate the site. You can find the template
 # at https://github.com/rtcharity/local-ea-template.
 [params]
-  # General site params
+  ## -- GENERAL SITE PARAMETERS -- ##
   fullTitle = "Effective Altruism Site Title"
   strapline = "Helping you do good better"
 
-  # EA Group Info
+  ## -- EA GROUP INFO -- ##
   legalOrgName = "Effective Altruism <City Here>"
   orgLocations = "this location and that location"
   registeredCharityNumber = "3.14159"
 
-  # Group URLs
+  ## -- EA GROUP FB/TWITTER/MEETUP URLS -- ##
   # If your group does not have URLs for these, just add # before the line
-  # to comment it out
+  # to remove the link
   facbookUrl = ""
   twitterUrl = ""
   meetupUrl = ""
 
-  # Buttons under the main header
+  ## -- NAVIGATION BAR HEADERS -- ##
+  # You will need to change these if your page is not in English;
+  # otherwise, you can leave these alone
+  navBarHome = "Home"
+  navBarAboutUs= "About Us"
+  navBarContactUs= "Contact Us"
+
+  ## -- BUTTONS -- ##
+  # These are the buttons right under the header that appears on the main page.
   # You can use them to link to a mailing list or Facebook page
   firstButtonText = "First Button Text"
   firstButtonURL = ""
@@ -32,13 +40,16 @@ theme = "local-ea-template"
   # Remove the # before the text to add the optional Meetup button
   # meetupButtonText = "Find us on Meetup"
 
-  # Front page text; change as needed.
+   ## -- HOMEPAGE -- ##
   topBannerText = "Who are we?"
   leadText = "We're a group of people who want to help you answer the question: how can I do good better?"
   firstSectionHeader = "Doing good better"
-  firstSectionText = "We want to help you use evidence and reason to make the world a better place."
   secondSectionHeader = "Building a community"
-  secondSectionText = "We are a welcoming group dedicated to promoting, inspiring and supporting one another to achieve altruistic goals."
   thirdSectionHeader = "Finding better ways to help"
-  thirdSectionText = "Some projects are thousands of times more effective than others. We apply logic and research to maximise our impact."
   bottomBannerText = "A proud member of the effective altruism network"
+
+  ## -- ABOUT PAGE -- ##
+  aboutBannerText = "About us"
+
+  ## -- CONTACT PAGE -- ##
+  contactBannerText = "Contact us"
