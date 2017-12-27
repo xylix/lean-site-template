@@ -11,15 +11,26 @@ theme = "local-ea-template"
   fullTitle = "Effective Altruism Site Title"
   strapline = "Helping you do good better"
 
+  # EA Group Info
+  legalOrgName = "Effective Altruism <City Here>"
+  orgLocations = "this location and that location"
+  registeredCharityNumber = "3.14159"
+
+  # Group URLs
+  # If your group does not have URLs for these, just add # before the line
+  # to comment it out
+  facbookUrl = ""
+  twitterUrl = ""
+  meetupUrl = ""
+
   # Buttons under the main header
   # You can use them to link to a mailing list or Facebook page
   firstButtonText = "First Button Text"
-  firstButtonLink = ""
+  firstButtonURL = ""
   secondButtonText = "Second Button Text"
-  secondButtonLink = ""
+  secondButtonURL = ""
   # Remove the # before the text to add the optional Meetup button
   # meetupButtonText = "Find us on Meetup"
-  # meetupButtonLink = ""
 
   # Front page text; change as needed.
   topBannerText = "Who are we?"
