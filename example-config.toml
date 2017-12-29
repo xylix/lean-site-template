@@ -7,9 +7,10 @@ DefaultContentLanguage = "en"
 
   [Languages]
   [Languages.en]
-  title = "Example EA Website"
-  weight = 1
   languageCode = "en"
+  languageName = "English"
+  title = "Local EA Website"
+  weight = 1
 
   [Languages.en.general]
   ## -- GENERAL SITE PARAMETERS -- ##
@@ -71,9 +72,11 @@ DefaultContentLanguage = "en"
   meetupUrl = "http://www.meetup.com/someEAMeetupGroup"
 
   [Languages.de]
+  languageCode = "de"
+  languageName = "Deutsch"
   title = "Die beste EA Webseite"
   weight = 2
-  languageCode = "de"
+
 
   [Languages.de.general]
   fullTitle = "EA ist das Beste"
