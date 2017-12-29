@@ -8,7 +8,6 @@ DefaultContentLanguage = "en"
   [Languages]
   [Languages.en]
   languageCode = "en"
-  languageName = "English"
   title = "Local EA Website"
   weight = 1
 
@@ -73,7 +72,6 @@ DefaultContentLanguage = "en"
 
   [Languages.de]
   languageCode = "de"
-  languageName = "Deutsch"
   title = "Die beste EA Webseite"
   weight = 2
 
