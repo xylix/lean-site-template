@@ -28,6 +28,10 @@ theme = "local-ea-template"
   # otherwise, you can leave these alone
   navBarHome = "Home"
   navBarAbout= "About"
+  navBarEffectiveAltruism = "Effective Altruism"
+  navBarReadingMaterial = "Reading Material"
+  navBarKeyTerms = "Key Terms"
+  navBarOrganizations = "Organizations"
   navBarContact= "Contact Us"
 
   ## -- BUTTONS -- ##
