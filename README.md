@@ -41,6 +41,19 @@ Most of the files are pretty self-explanatory by their name or content. However,
 Please note that .md uses **Github-flavoured markdown** for formatting. If you're not familiar with it, this [awesome Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) should help.
 
 
+#### Changing banner photos
+
+The site uses default banner photos. You can find the photos used in the `[static/img](https://github.com/rtcharity/lean-site-template/tree/master/static/img)` folder of this repository.
+
+If you want to replace a banner photo (for example, the banner photo under "Who are we?" is usually of your city), just make sure that the **name** of the photo stays the same, since the site generator depends on the name of the file in order to render the picture.
+
+You can do the following to replace a banner photo:
+1. Go to the `static/img` folder.
+1. Click on the photo file you want to replace, and click on the trash can button on the top-right to delete it.
+1. Once its been deleted, go back to the `static/img` folder and click "Upload files"
+1. Choose the photo you want to use as the new banner. **Make sure you name it the same thing as the file you deleted**.
+
+
 ## Deploying the Site
 
 1. If correctly set up your forked repo on Travis, any commit to a file will trigger a 'build' on Travis – that is, Travis will turn your config and the site template into nice HTML to be served up.
