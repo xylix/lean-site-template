@@ -30,7 +30,7 @@ DefaultContentLanguage = "en"
   [Languages.en.navbar]
   ## -- NAVIGATION BAR HEADERS -- ##
   home = "Home"
-  about = "About Us"
+  faq = "FAQ"
   effectiveAltruism = "Effective Altruism"
   aboutEA = "About EA"
   readingMaterial = "Reading Material"

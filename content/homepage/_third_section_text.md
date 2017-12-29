@@ -1,1 +1,1 @@
-This is the text that will go in the third section on the homepage, after the third section header (which you can configure in the `config.toml` file).
+Some projects are thousands of times more effective than others. We apply logic and research to maximise our impact.

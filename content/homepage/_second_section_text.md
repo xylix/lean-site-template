@@ -1,1 +1,1 @@
-This is the text that will go in the second section on the homepage, after the second section header (which you can configure in the `config.toml` file).
+We are a welcoming group dedicated to promoting, inspiring and supporting one another to achieve altruistic goals.
