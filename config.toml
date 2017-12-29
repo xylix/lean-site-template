@@ -1,21 +1,32 @@
 baseURL = "http://localhost"
-languageCode = "en-gb"
-title = "Local EA Website"
 theme = "local-ea-template"
+
+DefaultContentLanguage = "en"
 
 # These params are used by the local EA Hugo template
 # used to generate the site. You can find the template
 # at https://github.com/rtcharity/local-ea-template.
-[params]
+
+  [params]
+
+  [Languages]
+  [Languages.en]
+  title = "Local EA Website"
+  weight = 1
+  languageCode = "en"
+
+  [Languages.en.general]
   ## -- GENERAL SITE PARAMETERS -- ##
   fullTitle = "Effective Altruism Site Title"
   strapline = "Helping you do good better"
 
   ## -- EA GROUP INFO -- ##
+  [Languages.en.groupinfo]
   legalOrgName = "Effective Altruism <City Here>"
   orgLocations = "this location and that location"
   registeredCharityNumber = "3.14159"
 
+  [Languages.en.urls]
   ## -- EA GROUP FB/TWITTER/MEETUP URLS -- ##
   # If your group does not have URLs for these, just add # before the line
   # to remove the link
@@ -23,27 +34,18 @@ theme = "local-ea-template"
   twitterUrl = ""
   meetupUrl = ""
 
+  [Languages.en.navbar]
   ## -- NAVIGATION BAR HEADERS -- ##
-  # You will need to change these if your page is not in English;
-  # otherwise, you can leave these alone
   navBarHome = "Home"
-  navBarAbout= "About"
+  navBarAbout = "About Us"
   navBarEffectiveAltruism = "Effective Altruism"
+  navBarAboutEA = "About EA"
   navBarReadingMaterial = "Reading Material"
   navBarKeyTerms = "Key Terms"
   navBarOrganizations = "Organizations"
-  navBarContact= "Contact Us"
+  navBarContact= "Contact"
 
-  ## -- BUTTONS -- ##
-  # These are the buttons right under the header that appears on the main page.
-  # You can use them to link to a mailing list or Facebook page
-  firstButtonText = "First Button Text"
-  firstButtonURL = ""
-  secondButtonText = "Second Button Text"
-  secondButtonURL = ""
-  # Remove the # before the text to add the optional Meetup button
-  # meetupButtonText = "Find us on Meetup"
-
+  [Languages.en.homepage]
    ## -- HOMEPAGE -- ##
   topBannerText = "Who are we?"
   leadText = "We're a group of people who want to help you answer the question: how can I do good better?"
@@ -52,8 +54,19 @@ theme = "local-ea-template"
   thirdSectionHeader = "Finding better ways to help"
   bottomBannerText = "A proud member of the effective altruism network"
 
-  ## -- ABOUT PAGE -- ##
-  aboutBannerText = "About us"
+  [Languages.en.jumbotron]
+  # These are the buttons right under the header that appears on the main page.
+  # You can use them to link to a mailing list or Facebook page
+  # Make sure the links start with http:// or https://
+  firstButtonText = "First Button Text"
+  firstButtonLink = "http://www.button.com"
+  secondButtonText = "Second Button Text"
+  secondButtonLink = ""
+  # Remove the # before the text to add the optional Meetup button
+  # meetupButtonText = "Find us on Meetup"
 
-  ## -- CONTACT PAGE -- ##
-  contactBannerText = "Contact us"
+  [Languages.en.pages]
+  ## -- Page Headers -- ##
+  aboutPageHeader = "About us"
+  contactPageHeader = "Contact us"
+  aboutEAPageHeader = "What is Effective Altruism?"
