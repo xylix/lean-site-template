@@ -1,12 +1,15 @@
 baseURL = "http://localhost"
 theme = "local-ea-template"
 
+# If you are using multiple languages and want a different default,
+# you can change this language code. In this particular case,
+# baseURL will be th english site, and baseURL/<language code> will be the
+# other languages.
 DefaultContentLanguage = "en"
 
 # These params are used by the local EA Hugo template
 # used to generate the site. You can find the template
 # at https://github.com/rtcharity/local-ea-template.
-
   [params]
 
   [Languages]
@@ -25,10 +28,13 @@ DefaultContentLanguage = "en"
   legalOrgName = "Effective Altruism <City Here>"
   orgLocations = "this location and that location"
   registeredCharityNumber = "3.14159"
-  contactEmail = "hello@larissafeng.me"
+  contactEmail = "yourEAGroupEmail@here.com"
 
   [Languages.en.navbar]
   ## -- NAVIGATION BAR HEADERS -- ##
+  # You probably don't need/want to change these,
+  # but if you do you'll also want to change the relevant .md file under the
+  # content folder so the copy corresponds with the header.
   home = "Home"
   faq = "FAQ"
   effectiveAltruism = "Effective Altruism"
@@ -40,7 +46,6 @@ DefaultContentLanguage = "en"
 
   [Languages.en.pages]
   ## -- Page Headers -- ##
-  aboutPageHeader = "About us"
   contactPageHeader = "Contact us"
   aboutEAPageHeader = "What is Effective Altruism?"
 
@@ -63,10 +68,10 @@ DefaultContentLanguage = "en"
 
   [Languages.en.jumbotron]
   # These are the buttons right under the header that appears on the main page.
-  # You can use them to link to a mailing list or Facebook page
+  # You can use them to link to a mailing list or Facebook page.
   # Make sure the links start with http:// or https://
   firstButtonText = "First Button Text"
-  firstButtonLink = "http://www.button.com"
+  firstButtonLink = ""
   secondButtonText = "Second Button Text"
   secondButtonLink = ""
   # Remove the # before the text to add the optional Meetup button
@@ -75,7 +80,7 @@ DefaultContentLanguage = "en"
   [Languages.en.urls]
   ## -- EA GROUP FB/TWITTER/MEETUP URLS -- ##
   # If your group does not have URLs for these, just add # before the line
-  # to remove the link
+  # to remove the link from the site
   facbookUrl = ""
   twitterUrl = ""
   meetupUrl = ""
