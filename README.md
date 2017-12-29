@@ -81,4 +81,7 @@ Your site can support as many languages as you want. For each language you want 
 1. **You'll have to create <language-code>.md versions of every file inside the `content` and `content/homepage` folders** and populate them with translated copy as needed. This is the text that will be shown on the site for that language. For example, if I want to add German language support (and gave German the `de` code in `config.toml`), then I would have to create `_footer-left.de.md`, `faq.de.md`, `homepage/_first_section_text.de.md` and so on. You can create a file by going into the `content` folder then clicking "Create new file" at the top-right. **Make sure you get the name of the .md files right!** Aside from the extra language code, they must be the same as the English version! If the site can't find the correct translation file based on the filename, it will just fall back on the English copy.
 
 
+The URLS for translated content will always be www.your-domain.com/language-code/url. So, the German version of www.your-domain.com/about will be found at www.your-domain.com/de/about.
+
+
 To see an example site structure with multilingual support, see [this Hugo multilingual example](https://github.com/rayjolt/hugo-multilingual-example) or the official [Hugo documentation on Multilingual Mode](https://gohugo.io/content-management/multilingual/).
