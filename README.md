@@ -13,7 +13,7 @@ To get a shiny new site for your local EA chapter, follow the instructions below
 
 ## Customizing the Site
 
-#### Editing placeholder values in `config.toml`
+#### Editing default configuration values in `config.toml`
 
 Go to your forked repo on GitHub (the link should be `www.github.com/YOUR-USERNAME/lean-site-template`) and click on the `config.toml` file. This is the file that contains your site title, button names, navigation bar text, and so on. There are reasonable defaults for English, but there will be certain things you'll need to change such as the title, registeredCharityNumber, contactEmail, and so forth.
 
@@ -25,7 +25,7 @@ When you're done, commit your changes (the big green button at the bottom of the
 Make sure you commit directly to the master branch.
 
 
-#### Editing the default content
+#### Editing the written content
 
 All the written copy for the site is held in the "content" folder. If you click on it, you should see a bunch of files such as `_footer-left.md`, `contact.md`, `reading-material.md` and so forth. Feel free to explore and change the content as you please.
 
