@@ -88,7 +88,7 @@ Deployment is the step where your content goes live and your site becomes access
 
 1. If you correctly set up your forked repo on Travis, any commit (change) to a file will trigger a 'build' on Travis – that is, Travis will turn your config and the site template into nice HTML file (set of instructions to a browser to display your content how you want it) to be served up.
 1. It's time to hook up a domain to the site! If you are managing the domain name yourself, go to the 'Settings' tab in your repo and set up a custom domain for your site, following [these instructions](https://medium.com/@supriyakankure/how-to-add-a-custom-domain-to-your-github-page-with-godaddy-84495781143e). If LEAN is managing domain names for you, go to 'Settings' > 'Collaborators & teams' and add 'mondayrain' as a collaborator with 'Write' privileges. Then, contact Richenda at richenda [at] rtcharity.org and provide her a) The domain name you want to use, if you have one in mind, and b) the link to your GitHub repository.
-1. Once the domain is set up, you should be able to immediately see any changes to your site anytime you change content through an edit & commit on GitHub.
+1. Once the domain is set up (this may take a day or two), go to `config.toml` and change the baseURL value to whatever your new domain is. Once you save this change, you should be able to access your site through the new domain name!
 
 
 ## Setting up the Contact Form
@@ -117,5 +117,3 @@ The URLS for translated content will always be www.your-domain.com/language-code
 
 
 To see an example site structure with multilingual support, see [this Hugo multilingual example](https://github.com/rayjolt/hugo-multilingual-example) or the official [Hugo documentation on Multilingual Mode](https://gohugo.io/content-management/multilingual/).
-
-testest
