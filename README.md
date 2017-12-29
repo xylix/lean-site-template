@@ -18,7 +18,11 @@ To get a shiny new site for your local EA chapter, follow the instructions below
 1. Scroll down to "Environment Variables". Enter GITHUB_TOKEN into the Name field and paste the token you copied before into the Value field. Then hit "Add".
 1. Last step! Scroll back up to the top of the page and click on the "More options" button on the right, then hit "Trigger build".
 
-At this point, you should be able to see a live version of your site at https://YOUR-USERNAME.github.io/lean-site-template/. Most of the values are placeholder values for now. As we customize the values in the next section, you should be able to see the changes take place immediately at the link above.ß
+At this point, you should be able to see a live version of your site at https://YOUR-USERNAME.github.io/lean-site-template/.
+
+Because we haven't correctly set the base URL yet, the photos will be broken and the layout won't display properly. It looks pretty bad! No worries: we'll fix this quickly in the next section. The important thing here is to make sure that things were set up properly and that the link works.
+
+Most of the text values are placeholder values for now. As we customize the values in the next section, you should be able to see the changes take place immediately.
 
 
 ## Customizing the Site
@@ -35,8 +39,11 @@ In the next few sections we'll step through changing both the `config.toml` and 
 
 Go to the repo that you forked on GitHub (the link should be `www.github.com/YOUR-USERNAME/lean-site-template`) and click on the `config.toml` file. This is the file that contains your site title, button names, navigation bar text, and so on. There are reasonable defaults for English, but there will be certain things you'll need to change such as the title, registeredCharityNumber, contactEmail, and so forth.
 
+To change the file, hit the pencil icon near the top-right of the page.
 
-To change the file, hit the pencil icon near the top-right of the page. Change the placeholder values to whatever applies to your group. If you need an example to follow, see the [example config.toml file](https://github.com/rtcharity/lean-site-template/blob/master/example-config.toml) as a guide. If you need multilanguage support, be sure to read the [**Multilanguage Support** section](https://github.com/rtcharity/lean-site-template/blob/master/README.md#multilanguage-support) below.
+The first thing you'll want to do is to enter the correct value for "baseURL", so that the live site will display properly. You should change the value "http://localhost" to  "https://YOUR-USERNAME.github.io/lean-site-template/".
+
+Once you've done that, you can change the rest of the placeholder values to whatever applies to your group. If you need an example to follow, see the [example config.toml file](https://github.com/rtcharity/lean-site-template/blob/master/example-config.toml) as a guide. If you need multilanguage support, be sure to read the [**Multilanguage Support** section](https://github.com/rtcharity/lean-site-template/blob/master/README.md#multilanguage-support) below.
 
 
 When you're done, commit your changes (the big green button at the bottom of the edit page). ‘Commit’ is the equivalent of ‘apply’ or ‘save’ in GitHub terms. As a reminder, you should be able to see your changes live at https://YOUR-USERNAME.github.io/lean-site-template/ within a couple minutes of each commit.
