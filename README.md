@@ -43,7 +43,7 @@ Please note that .md uses **Github-flavoured markdown** for formatting. If you'r
 
 #### Changing banner photos
 
-The site uses default banner photos. You can find the photos used in the `[static/img](https://github.com/rtcharity/lean-site-template/tree/master/static/img)` folder of this repository.
+The site uses default banner photos. You can find the photos used in the [`static/img`](https://github.com/rtcharity/lean-site-template/tree/master/static/img) folder of this repository.
 
 If you want to replace a banner photo (for example, the banner photo under "Who are we?" is usually of your city), just make sure that the **name** of the photo stays the same, since the site generator depends on the name of the file in order to render the picture.
 
