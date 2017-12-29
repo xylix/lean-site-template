@@ -8,9 +8,17 @@ To get a shiny new site for your local EA chapter, follow the instructions below
 ## Initial Setup
 
 1. First, [create a free GitHub account](https://github.com/join).
-1. After you've signed back into GitHub with your account, hit the 'Fork' button at the top-right of this page. Forking will create a copy of this repository of code that you can work with in your GitHub account.
+1. After you've signed back into GitHub with your account, hit the 'Fork' button at the top-right of this page. Forking will create a copy of this repository of code that you can work with in your GitHub account. You should be able to find your copy at https://www.github.com/YOUR-USERNAME/lean-site-template.
+1. Within your forked copy of the code on Github, and click on "Branch: master". A field should appear; type in gh-pages and then click "Create branch: gh-pages".
+1. Go to https://github.com/settings/tokens and hit "Generate new token". Fill in Token description with "Travis deployment" and check the "Repo" checkbox. Then scroll down and hit the green "Generate token" button.
+1. Copy the token in the green bar into your clipboard, or into a text file. You'll need it later!
 1. Go to [travis-ci.org/](https://travis-ci.org/) and sign in with your GitHub account.
 1. Once Travis has "synced" all your repositories from GitHub, you should be able to see the "lean-site-template" on your Travis dashboard. You can enable builds on it by simply clicking on it. The "X" beside the repository name should turn into a checkmark.
+1. Go back down to "lean-site-template" on your dashboard, and click on the little gear.
+1. Scroll down to "Environment Variables". Enter GITHUB_TOKEN into the Name field and paste the token you copied before into the Value field. Then hit "Add".
+1. Last step! Scroll back up to the top of the page and click on the "More options" button on the right, then hit "Trigger build".
+
+At this point, you should be able to see a live version of your site at https://YOUR-USERNAME.github.io/lean-site-template/. Most of the values are placeholder values for now. We'll customize them in the next section.
 
 
 ## Customizing the Site
