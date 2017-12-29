@@ -18,7 +18,7 @@ To get a shiny new site for your local EA chapter, follow the instructions below
 Go to your forked repo on GitHub (the link should be `www.github.com/YOUR-USERNAME/lean-site-template`) and click on the `config.toml` file. This is the file that contains your site title, button names, navigation bar text, and so on. There are reasonable defaults for English, but there will be certain things you'll need to change such as the title, registeredCharityNumber, contactEmail, and so forth.
 
 
-To change the file, hit the pencil icon on the top-right of the file. Change the placeholder values to whatever applies to your group. If you need an example to follow, see the [example config.toml file](https://github.com/rtcharity/lean-site-template/blob/master/example-config.toml) as a guide. If you need multilanguage support, be sure to see the **Multilanguage Support** section below.
+To change the file, hit the pencil icon on the top-right of the file. Change the placeholder values to whatever applies to your group. If you need an example to follow, see the [example config.toml file](https://github.com/rtcharity/lean-site-template/blob/master/example-config.toml) as a guide. If you need multilanguage support, be sure to see the [**Multilanguage Support** section](https://github.com/rtcharity/lean-site-template/blob/master/README.md#multilanguage-support) below.
 
 
 When you're done, commit your changes (the big green button at the bottom of the edit page).
