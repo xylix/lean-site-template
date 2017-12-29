@@ -48,6 +48,18 @@ Please note that .md uses **Github-flavoured markdown** for formatting. If you'r
 1. Once the domain is set up, you should be able to immediately see any changes to your site anytime you change content through an edit & commit on GitHub.
 
 
+## Setting up the Contact Form
+
+The site uses [Formspree](https://formspree.io/) in order to forward Contact messages from the site to the contactEmail you define in `config.toml`. However, before they'll forward messages for you, you will need to confirm your email.
+
+In order to do this:
+1. Make sure your contact email is correctly filled in `config.toml`.
+1. Go to your site's contact page.
+1. Fill out the contact form and hit "Send".
+1. Formspree should send you an email at your contactEmail and ask you to confirm your email address. You may need to check/change your spam filter if you don't get it.
+1. Once your email is confirmed, all messages sent through the contact page should be forwarded to your contactEmail!
+
+
 ## Multilanguage Support
 
 Your site can support as many languages as you want. For each language you want to support, 2 things will need to be done:
