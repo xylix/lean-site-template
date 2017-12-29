@@ -8,17 +8,17 @@ To get a shiny new site for your local EA chapter, follow the instructions below
 ## Initial Setup
 
 1. First, [create a free GitHub account](https://github.com/join).
-1. After you've signed back into GitHub with your account, hit the 'Fork' button at the top-right of this page. Forking will create a copy of this repository of code that you can work with in your GitHub account. You should be able to find your copy at https://www.github.com/YOUR-USERNAME/lean-site-template.
-1. Within your forked copy of the code on Github, and click on "Branch: master". A field should appear; type in gh-pages and then click "Create branch: gh-pages".
+1. After you've signed back into GitHub with your account, hit the 'Fork' button at the top-right of this page. Forking will create a copy of this repository of code that you can work with in your GitHub account. Once the copy has been made, GitHub should automatically redirect you to your copy at https://www.github.com/YOUR-USERNAME/lean-site-template.
+1. Once at your forked copy of the code on Github, and click on "Branch: master". A field should appear; type in gh-pages and then click "Create branch: gh-pages".
 1. Go to https://github.com/settings/tokens and hit "Generate new token". Fill in Token description with "Travis deployment" and check the "Repo" checkbox. Then scroll down and hit the green "Generate token" button.
 1. Copy the token in the green bar into your clipboard, or into a text file. You'll need it later!
 1. Go to [travis-ci.org/](https://travis-ci.org/) and sign in with your GitHub account.
-1. Once Travis has "synced" all your repositories from GitHub, you should be able to see the "lean-site-template" on your Travis dashboard. You can enable builds on it by simply clicking on it. The "X" beside the repository name should turn into a checkmark.
-1. Go back down to "lean-site-template" on your dashboard, and click on the little gear.
+1. Once Travis has "synced" all your repositories from GitHub, you should be able to see the "lean-site-template" on your Travis dashboard. Click on the "X" beside the repository name, and it should turn into a checkmark.
+1. Click click on the little gear next to the checkmark; this should take you to the settings page.
 1. Scroll down to "Environment Variables". Enter GITHUB_TOKEN into the Name field and paste the token you copied before into the Value field. Then hit "Add".
 1. Last step! Scroll back up to the top of the page and click on the "More options" button on the right, then hit "Trigger build".
 
-At this point, you should be able to see a live version of your site at https://YOUR-USERNAME.github.io/lean-site-template/. Most of the values are placeholder values for now. We'll customize them in the next section.
+At this point, you should be able to see a live version of your site at https://YOUR-USERNAME.github.io/lean-site-template/. Most of the values are placeholder values for now. As we customize the values in the next section, you should be able to see the changes take place immediately at the link above.ß
 
 
 ## Customizing the Site
@@ -39,7 +39,7 @@ Go to the repo that you forked on GitHub (the link should be `www.github.com/YOU
 To change the file, hit the pencil icon near the top-right of the page. Change the placeholder values to whatever applies to your group. If you need an example to follow, see the [example config.toml file](https://github.com/rtcharity/lean-site-template/blob/master/example-config.toml) as a guide. If you need multilanguage support, be sure to read the [**Multilanguage Support** section](https://github.com/rtcharity/lean-site-template/blob/master/README.md#multilanguage-support) below.
 
 
-When you're done, commit your changes (the big green button at the bottom of the edit page). ‘Commit’ is the equivalent of ‘apply’ or ‘save’ in GitHub terms.
+When you're done, commit your changes (the big green button at the bottom of the edit page). ‘Commit’ is the equivalent of ‘apply’ or ‘save’ in GitHub terms. As a reminder, you should be able to see your changes live at https://YOUR-USERNAME.github.io/lean-site-template/ within a couple minutes of each commit.
 
 
 #### Editing the written content
