@@ -21,8 +21,8 @@ draft: false
 **Counterfactual reasoning**: Counterfactual reasoning is a method of deciding between actions by looking at the expected outcome in each case. For instance, one might consider how some intervention performs compared to a control.
 
 **Leveraging donations**: Sometimes, charitable donations can be leveraged to increase their effect. For example, instead of donating $1000 to charity, one might use the $1000 to hold a fundraiser event which results in the donation of more than $1000.
-
 <br>
+
 #### Philosophy
 **Consequentialism**: Consequentialism is the view that moral claims only depend on consequences or states of the world. That is, a consequentialist believes that the extent to which an act is good or bad depends solely on the extent to which the states of the world it causes are good or bad. Most effective altruists are consequentialists. Moral philosopher and effective altruist Thomas Pogge is one notable exception; he ascribes to a deontological system of ethics (one in which people have duties to do or not do certain actions).
 
@@ -33,8 +33,8 @@ draft: false
 **Rationalism**: Rationalism is the view that reason and experience / evidence, rather than religious belief and emotional responses, should be the basis of one’s actions and opinions.
 
 **Moral realism**: Moral realism is the claim that morality exists as more than just a human construct, in the same way that most people think of the external world existing independent of humans to perceive it. By contrast, moral non-realism is the claim that morality is just an idea that humans like to talk about.
-
 <br>
+
 #### Actions and term-requiring causes
 
 **Earning to give**: Earning to give refers to the practice of choosing a career not for its direct impact but for its salary, and then donating a significant portion of this salary to effective charities. Earning to give can be more effecitve than direct work because money is flexible, because earning to give is irreplaceable (someone else will sometimes do the direct impact job if you don’t), and because it allows individuals to specialize in what they are best at. Many effective altruists earn to give.
