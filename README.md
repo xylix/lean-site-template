@@ -13,19 +13,19 @@ To get a shiny new site for your local EA chapter, follow the instructions below
 
 ## Customizing the Site
 
-#### Editing placeholder values in `config.toml`
+#### Editing default configuration values in `config.toml`
 
 Go to your forked repo on GitHub (the link should be `www.github.com/YOUR-USERNAME/lean-site-template`) and click on the `config.toml` file. This is the file that contains your site title, button names, navigation bar text, and so on. There are reasonable defaults for English, but there will be certain things you'll need to change such as the title, registeredCharityNumber, contactEmail, and so forth.
 
 
-To change the file, hit the pencil icon on the top-right of the file. Change the placeholder values to whatever applies to your group. If you need an example to follow, see the [example config.toml file](https://github.com/rtcharity/lean-site-template/blob/master/example-config.toml) as a guide. If you need multilanguage support, be sure to see the **Multilanguage Support** section below.
+To change the file, hit the pencil icon on the top-right of the file. Change the placeholder values to whatever applies to your group. If you need an example to follow, see the [example config.toml file](https://github.com/rtcharity/lean-site-template/blob/master/example-config.toml) as a guide. If you need multilanguage support, be sure to see the [**Multilanguage Support** section](https://github.com/rtcharity/lean-site-template/blob/master/README.md#multilanguage-support) below.
 
 
 When you're done, commit your changes (the big green button at the bottom of the edit page).
 Make sure you commit directly to the master branch.
 
 
-#### Editing the default content
+#### Editing the written content
 
 All the written copy for the site is held in the "content" folder. If you click on it, you should see a bunch of files such as `_footer-left.md`, `contact.md`, `reading-material.md` and so forth. Feel free to explore and change the content as you please.
 
@@ -39,6 +39,19 @@ Most of the files are pretty self-explanatory by their name or content. However,
 
 
 Please note that .md uses **Github-flavoured markdown** for formatting. If you're not familiar with it, this [awesome Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) should help.
+
+
+#### Changing banner photos
+
+The site uses default banner photos. You can find the photos used in the [`static/img`](https://github.com/rtcharity/lean-site-template/tree/master/static/img) folder of this repository.
+
+If you want to replace a banner photo (for example, the banner photo under "Who are we?" is usually of your city), just make sure that the **name** of the photo stays the same, since the site generator depends on the name of the file in order to render the picture.
+
+You can do the following to replace a banner photo:
+1. Go to the `static/img` folder.
+1. Click on the photo file you want to replace, and click on the trash can button on the top-right to delete it.
+1. Once its been deleted, go back to the `static/img` folder and click "Upload files"
+1. Choose the photo you want to use as the new banner. **Make sure you name it the same thing as the file you deleted**.
 
 
 ## Deploying the Site
