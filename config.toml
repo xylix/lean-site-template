@@ -25,25 +25,24 @@ DefaultContentLanguage = "en"
   legalOrgName = "Effective Altruism <City Here>"
   orgLocations = "this location and that location"
   registeredCharityNumber = "3.14159"
-
-  [Languages.en.urls]
-  ## -- EA GROUP FB/TWITTER/MEETUP URLS -- ##
-  # If your group does not have URLs for these, just add # before the line
-  # to remove the link
-  facbookUrl = ""
-  twitterUrl = ""
-  meetupUrl = ""
+  contactEmail = "hello@larissafeng.me"
 
   [Languages.en.navbar]
   ## -- NAVIGATION BAR HEADERS -- ##
-  navBarHome = "Home"
-  navBarAbout = "About Us"
-  navBarEffectiveAltruism = "Effective Altruism"
-  navBarAboutEA = "About EA"
-  navBarReadingMaterial = "Reading Material"
-  navBarKeyTerms = "Key Terms"
-  navBarOrganizations = "Organizations"
-  navBarContact= "Contact"
+  home = "Home"
+  about = "About Us"
+  effectiveAltruism = "Effective Altruism"
+  aboutEA = "About EA"
+  readingMaterial = "Reading Material"
+  keyTerms = "Key Terms"
+  organizations = "Organizations"
+  contact= "Contact"
+
+  [Languages.en.pages]
+  ## -- Page Headers -- ##
+  aboutPageHeader = "About us"
+  contactPageHeader = "Contact us"
+  aboutEAPageHeader = "What is Effective Altruism?"
 
   [Languages.en.homepage]
    ## -- HOMEPAGE -- ##
@@ -53,6 +52,14 @@ DefaultContentLanguage = "en"
   secondSectionHeader = "Building a community"
   thirdSectionHeader = "Finding better ways to help"
   bottomBannerText = "A proud member of the effective altruism network"
+
+  [Languages.en.contactform]
+  leadText = "Say hi!"
+  senderName = "Your name (required)"
+  senderEmail = "Your email (required)"
+  emailSubject = "Subject"
+  emailMessage = "Your Message:"
+  send = "Send"
 
   [Languages.en.jumbotron]
   # These are the buttons right under the header that appears on the main page.
@@ -65,8 +72,10 @@ DefaultContentLanguage = "en"
   # Remove the # before the text to add the optional Meetup button
   # meetupButtonText = "Find us on Meetup"
 
-  [Languages.en.pages]
-  ## -- Page Headers -- ##
-  aboutPageHeader = "About us"
-  contactPageHeader = "Contact us"
-  aboutEAPageHeader = "What is Effective Altruism?"
+  [Languages.en.urls]
+  ## -- EA GROUP FB/TWITTER/MEETUP URLS -- ##
+  # If your group does not have URLs for these, just add # before the line
+  # to remove the link
+  facbookUrl = ""
+  twitterUrl = ""
+  meetupUrl = ""
