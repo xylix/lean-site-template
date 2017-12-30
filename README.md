@@ -10,7 +10,7 @@ To get a shiny new site for your local EA chapter, follow the instructions below
 1. First, [create a free GitHub account](https://github.com/join).
 1. After you've signed back into GitHub with your account, hit the 'Fork' button at the top-right of this page. Forking will create a copy of this repository of code that you can work with in your GitHub account. Once the copy has been made, GitHub should automatically redirect you to your copy at https://www.github.com/YOUR-USERNAME/lean-site-template.
 ![Fork a repo](https://user-images.githubusercontent.com/4016519/34449760-f1726ca8-ecb0-11e7-9529-3b194657dcb6.png)
-1. Once at your forked copy of the code on Github, and click on "Branch: master". A field should appear; type in gh-pages and then click "Create branch: gh-pages".
+1. Once at your forked copy of the code on Github, click on "Branch: master". A field should appear; type in gh-pages and then click "Create branch: gh-pages".
 ![Create a gh-pages branch](https://user-images.githubusercontent.com/4016519/34450049-6a239ac4-ecb5-11e7-9bf9-7d04c699d95b.png)
 1. Go to https://github.com/settings/tokens and hit "Generate new token". Fill in Token description with "Travis deployment" and check the "Repo" checkbox. Then scroll down and hit the green "Generate token" button.
 ![Generate a new token](https://user-images.githubusercontent.com/4016519/34449783-316a7d78-ecb1-11e7-9b7b-ffd6ae437cbf.png)
@@ -44,7 +44,7 @@ In the next few sections we'll step through changing both the `config.toml` and 
 
 #### Editing default configuration values in `config.toml`
 
-Go to the repo that you forked on GitHub (the link should be `www.github.com/YOUR-USERNAME/lean-site-template`) and click on the `config.toml` file. This is the file that contains your site title, button names, navigation bar text, and so on. There are reasonable defaults for English, but there will be certain things you'll need to change such as the title, registeredCharityNumber, contactEmail, and so forth.
+Go to the repo that you forked on GitHub (the link should be `www.github.com/YOUR-USERNAME/lean-site-template`) and click on the `config.toml` file. This is the file that contains your site title, button names, navigation bar text, and so on. There are reasonable defaults for English, but there will be certain things you'll need to change such as the title, contactEmail, and so forth.
 
 To change the file, hit the pencil icon near the top-right of the page.
 ![Edit file](https://user-images.githubusercontent.com/4016519/34449766-fe7d9fd0-ecb0-11e7-998a-5f3016dc95fc.png)
@@ -119,7 +119,7 @@ Remember that if you would like an official EA email address for privacy reasons
 
 Your site can support as many languages as you want. For each language you want to support, 2 things will need to be done:
 
-1. **You'll need to add the appropriate sections to `config.toml`.** Basically what you'll need to do is duplicate everything from `[Languages.en]` onwards, but change the language code from `en` to whatever language you want to use. All you'll have to do then is fill in the parameter values as needed for that given language. See [example-config.toml](https://github.com/rtcharity/lean-site-template/blob/master/example-config.toml) for a an example `config.toml` that supports both English and German, with `de` being the German language code.
+1. **You'll need to add the appropriate sections to `config.toml`.** Basically what you'll need to do is duplicate everything from `[Languages.en]` onwards, but change the language code from `en` to whatever language you want to use. All you'll have to do then is fill in the parameter values as needed for that given language. See [example-config.toml](https://github.com/rtcharity/lean-site-template/blob/master/example-config.toml) for an example `config.toml` that supports both English and German, with `de` being the German language code.
 1. **You'll have to create <language-code>.md versions of every file inside the `content` and `content/homepage` folders** and populate them with translated copy as needed. This is the text that will be shown on the site for that language. For example, if I want to add German language support (and gave German the `de` code in `config.toml`), then I would have to create `_footer-left.de.md`, `faq.de.md`, `homepage/_first_section_text.de.md` and so on. You can create a file by going into the `content` folder then clicking "Create new file" at the top-right. **Make sure you get the name of the .md files right!** Aside from the extra language code, they must be the same as the English version! If the site can't find the correct translation file based on the filename, it will just fall back on the English copy.
 
 
