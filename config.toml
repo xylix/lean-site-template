@@ -1,4 +1,4 @@
-baseURL = "http://localhost"
+baseURL = "https://rtcharity.github.io/lean-site-template/"
 theme = "local-ea-template"
 
 # If you are using multiple languages and want a different default,
