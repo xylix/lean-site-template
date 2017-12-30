@@ -1,6 +1,6 @@
 # LEAN site template
 
-Welcome to the GitHub repository containing all the code/files you'll need in order to start a new Local EA site!
+Welcome to the GitHub repository containing all the code/files you'll need in order to start a new Local EA site! You can see an example of what it'll look like at https://rtcharity.github.io/lean-site-template/.
 
 To get a shiny new site for your local EA chapter, follow the instructions below.
 
@@ -9,14 +9,21 @@ To get a shiny new site for your local EA chapter, follow the instructions below
 
 1. First, [create a free GitHub account](https://github.com/join).
 1. After you've signed back into GitHub with your account, hit the 'Fork' button at the top-right of this page. Forking will create a copy of this repository of code that you can work with in your GitHub account. Once the copy has been made, GitHub should automatically redirect you to your copy at https://www.github.com/YOUR-USERNAME/lean-site-template.
+![Fork a repo](https://user-images.githubusercontent.com/4016519/34449760-f1726ca8-ecb0-11e7-9529-3b194657dcb6.png)
 1. Once at your forked copy of the code on Github, and click on "Branch: master". A field should appear; type in gh-pages and then click "Create branch: gh-pages".
+![Create a gh-pages branch](https://user-images.githubusercontent.com/4016519/34450049-6a239ac4-ecb5-11e7-9bf9-7d04c699d95b.png)
 1. Go to https://github.com/settings/tokens and hit "Generate new token". Fill in Token description with "Travis deployment" and check the "Repo" checkbox. Then scroll down and hit the green "Generate token" button.
+![Generate a new token](https://user-images.githubusercontent.com/4016519/34449783-316a7d78-ecb1-11e7-9b7b-ffd6ae437cbf.png)
 1. Copy the token in the green bar into your clipboard, or into a text file. You'll need it later!
+![Copy token](https://user-images.githubusercontent.com/4016519/34449804-7122c86c-ecb1-11e7-893a-85a08a01a2b6.png)
 1. Go to [travis-ci.org/](https://travis-ci.org/) and sign in with your GitHub account.
 1. Once Travis has "synced" all your repositories from GitHub, you should be able to see the "lean-site-template" on your Travis dashboard. Click on the "X" beside the repository name, and it should turn into a checkmark.
+![Dashboard](https://user-images.githubusercontent.com/4016519/34449787-4b4043a4-ecb1-11e7-99d9-1a47f3b18656.png)
 1. Click click on the little gear next to the checkmark; this should take you to the settings page.
 1. Scroll down to "Environment Variables". Enter GITHUB_TOKEN into the Name field and paste the token you copied before into the Value field. Then hit "Add".
+![Env vars](https://user-images.githubusercontent.com/4016519/34449807-7aac73ba-ecb1-11e7-839f-8fe9ad52584c.png)
 1. Last step! Scroll back up to the top of the page and click on the "More options" button on the right, then hit "Trigger build".
+![Env vars](https://user-images.githubusercontent.com/4016519/34449795-5e828c4c-ecb1-11e7-8949-af77c97cc5b4.png)
 
 At this point, you should be able to see a live version of your site at https://YOUR-USERNAME.github.io/lean-site-template/.
 
@@ -40,8 +47,11 @@ In the next few sections we'll step through changing both the `config.toml` and 
 Go to the repo that you forked on GitHub (the link should be `www.github.com/YOUR-USERNAME/lean-site-template`) and click on the `config.toml` file. This is the file that contains your site title, button names, navigation bar text, and so on. There are reasonable defaults for English, but there will be certain things you'll need to change such as the title, registeredCharityNumber, contactEmail, and so forth.
 
 To change the file, hit the pencil icon near the top-right of the page.
+![Edit file](https://user-images.githubusercontent.com/4016519/34449766-fe7d9fd0-ecb0-11e7-998a-5f3016dc95fc.png)
 
-The first thing you'll want to do is to enter the correct value for "baseURL", so that the live site will display properly. You should change the value "http://localhost" to  "https://YOUR-USERNAME.github.io/lean-site-template/".
+The first thing you'll want to do is to enter the correct value for "baseURL", so that the live site will display properly. You should change the value "https://YOUR-USERNAME.github.io/lean-site-template/".
+![baseURL](https://user-images.githubusercontent.com/4016519/34449814-8a3070f2-ecb1-11e7-80b0-ff012e1b5b2d.png)
+
 
 Once you've done that, you can change the rest of the placeholder values to whatever applies to your group. If you need an example to follow, see the [example config.toml file](https://github.com/rtcharity/lean-site-template/blob/master/example-config.toml) as a guide. If you need multilanguage support, be sure to read the [**Multilanguage Support** section](https://github.com/rtcharity/lean-site-template/blob/master/README.md#multilanguage-support) below.
 
