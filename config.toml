@@ -27,7 +27,6 @@ DefaultContentLanguage = "en"
   [Languages.en.groupinfo]
   legalOrgName = "Effective Altruism <City Here>"
   orgLocations = "this location and that location"
-  registeredCharityNumber = "3.14159"
   contactEmail = "yourEAGroupEmail@here.com"
 
   [Languages.en.navbar]
