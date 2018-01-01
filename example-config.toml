@@ -66,7 +66,7 @@ DefaultContentLanguage = "en"
 
   [Languages.en.urls]
   ## -- EA GROUP FB/TWITTER/MEETUP URLS -- ##
-  facbookUrl = "http://www.facebook.com/someEAFacebookGroup"
+  facebookUrl = "http://www.facebook.com/someEAFacebookGroup"
   #twitterUrl = ""
   meetupUrl = "http://www.meetup.com/someEAMeetupGroup"
 
@@ -124,6 +124,6 @@ DefaultContentLanguage = "en"
   meetupButtonText = "Finden Sie uns auf Meetup"
 
   [Languages.de.urls]
-  facbookUrl = "http://www.facebook.com/someEAFacebookGroup"
+  facebookUrl = "http://www.facebook.com/someEAFacebookGroup"
   #twitterUrl = ""
   meetupUrl = "http://www.meetup.com/someEAMeetupGroup"
