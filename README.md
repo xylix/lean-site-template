@@ -24,8 +24,7 @@ To get a shiny new site for your local EA chapter, follow the instructions below
 ## Initial Setup
 
 1. First, [create a free GitHub account](https://github.com/join).
-1. After you've signed back into GitHub with your account, open a new tab in your browser and go to [the LEAN static site generator homepage](https://github.com/rtcharity/lean-site-template).
-1. Hit the 'Fork' button at the top-right of the page. Forking will create a copy of this repository of code that you can work with in your GitHub account. Once the copy has been made, GitHub should automatically redirect you to your copy at https://www.github.com/YOUR-USERNAME/lean-site-template.
+1. After you've signed back into GitHub with your account, go to the top of this page and hit the 'Fork' button at the top-right of the page. Forking will create a copy of this repository of code that you can work with in your GitHub account. Once the copy has been made, GitHub should automatically redirect you to your copy at https://www.github.com/YOUR-USERNAME/lean-site-template.
 ![Fork a repo](https://user-images.githubusercontent.com/4016519/34449760-f1726ca8-ecb0-11e7-9529-3b194657dcb6.png)
 1. Once at your forked copy of the code on Github, click on "Branch: master". A field should appear; type in gh-pages and then click "Create branch: gh-pages".
 ![Create a gh-pages branch](https://user-images.githubusercontent.com/4016519/34450049-6a239ac4-ecb5-11e7-9bf9-7d04c699d95b.png)
