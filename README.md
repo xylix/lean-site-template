@@ -2,7 +2,7 @@
 
 Welcome to the GitHub repository containing all the code/files you'll need in order to start a new Local EA site! You can see an example of what it'll look like at https://rtcharity.github.io/lean-site-template/.
 
-To get a shiny new site for your local EA chapter, follow the instructions below.
+To get a shiny new site for your local EA chapter, follow the instructions below or see the [video tutorials on YouTube](https://www.youtube.com/playlist?list=PLwIpjsfqxSaz2ptYuBTRdk8xPbUDs7syN).
 
 
 ## Initial Setup
@@ -19,15 +19,15 @@ To get a shiny new site for your local EA chapter, follow the instructions below
 1. Go to [travis-ci.org/](https://travis-ci.org/) and sign in with your GitHub account.
 1. Once Travis has "synced" all your repositories from GitHub, you should be able to see the "lean-site-template" on your Travis dashboard. Click on the "X" beside the repository name, and it should turn into a checkmark.
 ![Dashboard](https://user-images.githubusercontent.com/4016519/34449787-4b4043a4-ecb1-11e7-99d9-1a47f3b18656.png)
-1. Click click on the little gear next to the checkmark; this should take you to the settings page.
+1. Click on the little gear next to the checkmark; this should take you to the settings page.
 1. Scroll down to "Environment Variables". Enter GITHUB_TOKEN into the Name field and paste the token you copied before into the Value field. Then hit "Add".
 ![Env vars](https://user-images.githubusercontent.com/4016519/34449807-7aac73ba-ecb1-11e7-839f-8fe9ad52584c.png)
-1. Last step! Scroll back up to the top of the page and click on the "More options" button on the right, then hit "Trigger build".
+1. Last step! Scroll back up to the top of the page and click on the "More options" button on the right, then hit "Trigger build" and "Trigger custom build" on the popup.
 ![Env vars](https://user-images.githubusercontent.com/4016519/34449795-5e828c4c-ecb1-11e7-8949-af77c97cc5b4.png)
 
 At this point, you should be able to see a live version of your site at https://YOUR-USERNAME.github.io/lean-site-template/.
 
-Because we haven't correctly set the base URL yet, the photos will be broken and the layout won't display properly. It looks pretty bad! No worries: we'll fix this quickly in the next section. The important thing here is to make sure that things were set up properly and that the link works.
+**NOTE**: Because we haven't correctly set the base URL yet, the photos may be broken and the layout won't display properly. The "Home" button may also be broken. If this is the case, no worries: we'll fix this quickly in the next section. The important thing here is to make sure that things were set up properly and that we have a way to see the site as we change it.
 
 Most of the text values are placeholder values for now. As we customize the values in the next section, you should be able to see the changes take place immediately.
 
@@ -49,7 +49,7 @@ Go to the repo that you forked on GitHub (the link should be `www.github.com/YOU
 To change the file, hit the pencil icon near the top-right of the page.
 ![Edit file](https://user-images.githubusercontent.com/4016519/34449766-fe7d9fd0-ecb0-11e7-998a-5f3016dc95fc.png)
 
-The first thing you'll want to do is to enter the correct value for "baseURL", so that the live site will display properly. You should change the value "https://YOUR-USERNAME.github.io/lean-site-template/".
+The first thing you'll need to do is to enter the correct value for "baseURL", so that the live site will display properly. **Make sure you do this!** You should change the value "https://YOUR-USERNAME.github.io/lean-site-template/". Don't forget the trailing slash!
 ![baseURL](https://user-images.githubusercontent.com/4016519/34449814-8a3070f2-ecb1-11e7-80b0-ff012e1b5b2d.png)
 
 
@@ -89,33 +89,41 @@ You can do the following to replace a banner photo:
 
 Please remember that large image files can slow down your website and potentially cause other problems. We recommend using image files no larger than 5mb. If you have an image that is too large, you can easily and freely resize it using websites such as https://imgur.com/ or https://pixlr.com/express/. If you are a Mac user, the ‘Preview’ application in OSX will also allow you to resize your images.
 
-Please also remember to pay attention to copyright permissions for images that you choose. An easy way to find free images is to search for images with creative commons licenses on https://commons.wikimedia.org/wiki/Main_Page or to use content from https://unsplash.com/.
+Please also remember to **pay attention to copyright permissions for images that you choose**. An easy way to find free images is to search for images with creative commons licenses on https://commons.wikimedia.org/wiki/Main_Page or to use content from https://unsplash.com/.
 
 
-## Deploying the Site
+## Deployment & Setting up your domain name
 
 Deployment is the step where your content goes live and your site becomes accessible to the public on the Internet.
 
 1. If you correctly set up your forked repo on Travis, any commit (change) to a file will trigger a 'build' on Travis – that is, Travis will turn your config and the site template into nice HTML file (set of instructions to a browser to display your content how you want it) to be served up.
 1. It's time to hook up a domain to the site! If you are managing the domain name yourself, go to the 'Settings' tab in your repo and set up a custom domain for your site, following [these instructions](https://medium.com/@supriyakankure/how-to-add-a-custom-domain-to-your-github-page-with-godaddy-84495781143e). If LEAN is managing domain names for you, go to 'Settings' > 'Collaborators & teams' and add 'mondayrain' as a collaborator with 'Write' privileges. Then, contact Richenda at richenda [at] rtcharity.org and provide her a) The domain name you want to use, if you have one in mind, and b) the link to your GitHub repository.
-1. Once the domain is set up (this may take a day or two), go to `config.toml` and change the baseURL value to whatever your new domain is. Once you save this change, you should be able to access your site through the new domain name!
+1. Once the domain is set up (this may take a day or two), go to `config.toml` and change the baseURL value to whatever your new domain is. Don't forget the trailing slash (e.g. 'https://mydomain.com/')! Once you save this change and Travis has finished building your site, you should be able to access your site through the new domain name.
+
+**Note**: at this point, all the links on your site should work (the Home button was, for example, broken because we had a weird GitHub `baseURL`). If not, feel free to reach out to us.
 
 
 ## Setting up the Contact Form
 
 The site uses [Formspree](https://formspree.io/) in order to forward Contact messages from the site to the contactEmail you define in `config.toml`. However, before they'll forward messages for you, you will need to confirm your email.
 
-In order to do this:
-1. Make sure your contact email is correctly filled in `config.toml`.
-1. Go to your site's contact page.
-1. Fill out the contact form and hit "Send".
-1. Formspree should send you an email at your contactEmail and ask you to confirm your email address. You may need to check/change your spam filter if you don't get it.
-1. Once your email is confirmed, all messages sent through the contact page should be forwarded to your contactEmail!
+You don't actually need to do anything ahead of time; the first time somebody sends a message through your contact form, Formspree will send an email to you asking you to confirm your email.
+![Confirm email](https://user-images.githubusercontent.com/4016519/34537832-c20e41cc-f07e-11e7-97ca-96c5bb864080.png)
+
+
+Once you've confirmed your email, Formspree will forward all messages entered into the contact form to your email.
+![Forwarded message](https://user-images.githubusercontent.com/4016519/34537841-c7cf9386-f07e-11e7-9fcf-f23a8dcb833b.png)
+
 
 Remember that if you would like an official EA email address for privacy reasons, LEAN can set this up for you if we have not already. Email Richenda at richenda [at] rtcharity.org
 
 
+**Note**: If you don't want to wait for somebody to send you a message in order to set up your contact form, you can submit a test message into the contact form yourself.
+
+
 ## Multilanguage Support
+
+**This will only work if you have already set up your domain name!**
 
 Your site can support as many languages as you want. For each language you want to support, 2 things will need to be done:
 
