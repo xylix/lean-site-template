@@ -5,6 +5,22 @@ Welcome to the GitHub repository containing all the code/files you'll need in or
 To get a shiny new site for your local EA chapter, follow the instructions below or see the [video tutorials on YouTube](https://www.youtube.com/playlist?list=PLwIpjsfqxSaz2ptYuBTRdk8xPbUDs7syN).
 
 
+## Table of Contents
+[Initial Setup](https://github.com/rtcharity/lean-site-template#initial-setup)
+
+[Customizing the Site](https://github.com/rtcharity/lean-site-template#customizing-the-site)
+
+[Deployment & Setting Up Your Domain Name](https://github.com/rtcharity/lean-site-template#deployment--setting-up-your-domain-name)
+
+[Setting Up the Contact Form](https://github.com/rtcharity/lean-site-template#setting-up-the-contact-form)
+
+[Multilanguage Support](https://github.com/rtcharity/lean-site-template#multilanguage-support)
+
+[Developing/Customizing the Site Generator](https://github.com/rtcharity/lean-site-template#developingcustomizing-the-site-generator)
+
+[Contributors](https://github.com/rtcharity/lean-site-template#contributors)
+
+
 ## Initial Setup
 
 1. First, [create a free GitHub account](https://github.com/join).
@@ -92,7 +108,7 @@ Please remember that large image files can slow down your website and potentiall
 Please also remember to **pay attention to copyright permissions for images that you choose**. An easy way to find free images is to search for images with creative commons licenses on https://commons.wikimedia.org/wiki/Main_Page or to use content from https://unsplash.com/.
 
 
-## Deployment & Setting up your domain name
+## Deployment & Setting Up Your Domain Name
 
 Deployment is the step where your content goes live and your site becomes accessible to the public on the Internet.
 
@@ -103,7 +119,7 @@ Deployment is the step where your content goes live and your site becomes access
 **Note**: at this point, all the links on your site should work (the Home button was, for example, broken because we had a weird GitHub `baseURL`). If not, feel free to reach out to us.
 
 
-## Setting up the Contact Form
+## Setting Up the Contact Form
 
 The site uses [Formspree](https://formspree.io/) in order to forward Contact messages from the site to the contactEmail you define in `config.toml`. However, before they'll forward messages for you, you will need to confirm your email.
 
@@ -151,5 +167,6 @@ If this site generator is too inflexible for you and you would like to develop t
 
 ## Contributors
 
-The 1.0 version of this site generator was built bu @henryaj & @mondayrain.
-Special thanks to others in the LEAN network for proofreading and editing!
+The 1.0 version of this site generator was built by [@henryaj](https://github.com/henryaj) & [@mondayrain](https://github.com/mondayrain).
+
+Additional thanks to those in the LEAN network for proofreading and editing!
