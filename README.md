@@ -135,3 +135,21 @@ The URLS for translated content will always be www.your-domain.com/language-code
 
 
 To see an example site structure with multilingual support, see [this Hugo multilingual example](https://github.com/rayjolt/hugo-multilingual-example) or the official [Hugo documentation on Multilingual Mode](https://gohugo.io/content-management/multilingual/).
+
+
+## Developing/Customizing the Site Generator
+
+If this site generator is too inflexible for you and you would like to develop the site generator further, here are a few pointers to get you started.
+
+**Please note that we do not have the resources to teach individual folks how to develop the site generator. If the resources/notes below are not enough, please consider simply using the site as it comes.**
+
+1. The site generator is built on [Hugo](https://gohugo.io/), an open-source static site generator written in Go. They have great [written documentation](https://gohugo.io/documentation/), as well as a [Youtube playlist of tutorial screencasts](https://www.youtube.com/watch?v=qtIqKaDlqXo&list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3) to get you started.
+1. The site is split into 2 parts: [the custom LEAN Hugo theme](https://github.com/rtcharity/local-ea-template), and the [actual site generator/template](https://github.com/rtcharity/lean-site-template) (this repo) which uses the theme. The template references the theme as a [git submodule](https://git-scm.com/docs/git-submodule). When you clone the `lean-site-template` generator, you'll need to run `git submodule update --init --recursive` in order to initialize the theme submodule.
+1. This repository contains all the config, written content, and static images; the theme repo contains all of the HTML and CSS for the site.
+1. The site generator is tied to a specific *commit* of the theme. Therefore, if you ever push an update the theme, you will need to also update this repo to point to the new theme commit. Otherwise, the site generator will keep using the older version of the theme. `git submodule update --init --recursive` should always pull the latest version of the theme, so all you need to do is run that and then commit the changes to git.
+
+
+## Contributors
+
+The 1.0 version of this site generator was built bu @henryaj & @mondayrain.
+Special thanks to others in the LEAN network for proofreading and editing!
