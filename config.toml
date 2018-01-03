@@ -62,7 +62,7 @@ DefaultContentLanguage = "en"
   senderName = "Your name (required)"
   senderEmail = "Your email (required)"
   emailSubject = "Subject"
-  emailMessage = "Your Message:"
+  emailMessage = "Your Message"
   send = "Send"
 
   [Languages.en.jumbotron]
