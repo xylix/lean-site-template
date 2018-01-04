@@ -15,7 +15,7 @@ __**[CEA](http://centreforeffectivealtruism.org/)**__: The Centre for Effective 
 
 __**[Center for Applied Rationality](http://rationality.org/)**__ runs 4 day workshops on, no surprises here, rationality. They often give significant discounts to effective altruists, and a lot of people report benefiting from doing one.
 
-__**[Charity Science](http://www.charityscience.com/)**__ wants to revolutionize doing good the same way that science revolutionized medicine. They consider which activities actually help people and which don’t, looking at the science. CS advocate for the most evidence-based and cost effective interventions.
+__**[The Charity Science Foundation](http://www.charityscience.com/)**__ runs Charity Science Health, which sends SMS vaccine reminders in India, and seeks to identify the highest impact opportunities for founding new charities..
 
 __**[Effective Altruism Ventures](http://www.eaventures.org/)**__ is a VC fund designed for incubating projects that create a lot of social value.
 
