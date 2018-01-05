@@ -1,10 +1,12 @@
 # LEAN site template
 
 Welcome to the GitHub repository containing all the code/files you'll need in order to start a new Local EA site! You can see an example of what it'll look like at https://rtcharity.github.io/lean-site-template/.
-(**NOTE**: The "home" buttons on the demo site do not work because a proper domain name has not been set up for it. Once you direct a domain name like "eamycity.org" to your site, you will not have this problem)
+
 
 To get a shiny new site for your local EA chapter, follow the instructions below or see the [video tutorials on YouTube](https://www.youtube.com/playlist?list=PLwIpjsfqxSaz2ptYuBTRdk8xPbUDs7syN).
 
+
+(**NOTE**: The "home" buttons on the demo site do not work because a proper domain name has not been set up for it. Once you direct a domain name like "eamycity.org" to your site, you will not have this problem)
 
 
 ## Table of Contents
