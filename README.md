@@ -2,13 +2,33 @@
 
 Welcome to the GitHub repository containing all the code/files you'll need in order to start a new Local EA site! You can see an example of what it'll look like at https://rtcharity.github.io/lean-site-template/.
 
-To get a shiny new site for your local EA chapter, follow the instructions below.
+
+To get a shiny new site for your local EA chapter, follow the instructions below or see the [video tutorials on YouTube](https://www.youtube.com/playlist?list=PLwIpjsfqxSaz2ptYuBTRdk8xPbUDs7syN).
+
+
+(**NOTE**: The "home" buttons on the demo site do not work because a proper domain name has not been set up for it. Once you direct a domain name like "eamycity.org" to your site, you will not have this problem)
+
+
+## Table of Contents
+[Initial Setup](https://github.com/rtcharity/lean-site-template#initial-setup)
+
+[Customizing the Site](https://github.com/rtcharity/lean-site-template#customizing-the-site)
+
+[Deployment & Setting Up Your Domain Name](https://github.com/rtcharity/lean-site-template#deployment--setting-up-your-domain-name)
+
+[Setting Up the Contact Form](https://github.com/rtcharity/lean-site-template#setting-up-the-contact-form)
+
+[Multilanguage Support](https://github.com/rtcharity/lean-site-template#multilanguage-support)
+
+[Developing/Customizing the Site Generator](https://github.com/rtcharity/lean-site-template#developingcustomizing-the-site-generator)
+
+[Contributors](https://github.com/rtcharity/lean-site-template#contributors)
 
 
 ## Initial Setup
 
 1. First, [create a free GitHub account](https://github.com/join).
-1. After you've signed back into GitHub with your account, hit the 'Fork' button at the top-right of this page. Forking will create a copy of this repository of code that you can work with in your GitHub account. Once the copy has been made, GitHub should automatically redirect you to your copy at https://www.github.com/YOUR-USERNAME/lean-site-template.
+1. After you've signed back into GitHub with your account, go to the top of this page and hit the 'Fork' button at the top-right of the page. Forking will create a copy of this repository of code that you can work with in your GitHub account. Once the copy has been made, GitHub should automatically redirect you to your copy at https://www.github.com/YOUR-USERNAME/lean-site-template.
 ![Fork a repo](https://user-images.githubusercontent.com/4016519/34449760-f1726ca8-ecb0-11e7-9529-3b194657dcb6.png)
 1. Once at your forked copy of the code on Github, click on "Branch: master". A field should appear; type in gh-pages and then click "Create branch: gh-pages".
 ![Create a gh-pages branch](https://user-images.githubusercontent.com/4016519/34450049-6a239ac4-ecb5-11e7-9bf9-7d04c699d95b.png)
@@ -19,15 +39,15 @@ To get a shiny new site for your local EA chapter, follow the instructions below
 1. Go to [travis-ci.org/](https://travis-ci.org/) and sign in with your GitHub account.
 1. Once Travis has "synced" all your repositories from GitHub, you should be able to see the "lean-site-template" on your Travis dashboard. Click on the "X" beside the repository name, and it should turn into a checkmark.
 ![Dashboard](https://user-images.githubusercontent.com/4016519/34449787-4b4043a4-ecb1-11e7-99d9-1a47f3b18656.png)
-1. Click click on the little gear next to the checkmark; this should take you to the settings page.
+1. Click on the little gear next to the checkmark; this should take you to the settings page.
 1. Scroll down to "Environment Variables". Enter GITHUB_TOKEN into the Name field and paste the token you copied before into the Value field. Then hit "Add".
 ![Env vars](https://user-images.githubusercontent.com/4016519/34449807-7aac73ba-ecb1-11e7-839f-8fe9ad52584c.png)
-1. Last step! Scroll back up to the top of the page and click on the "More options" button on the right, then hit "Trigger build".
+1. Last step! Scroll back up to the top of the page and click on the "More options" button on the right, then hit "Trigger build" and "Trigger custom build" on the popup.
 ![Env vars](https://user-images.githubusercontent.com/4016519/34449795-5e828c4c-ecb1-11e7-8949-af77c97cc5b4.png)
 
 At this point, you should be able to see a live version of your site at https://YOUR-USERNAME.github.io/lean-site-template/.
 
-Because we haven't correctly set the base URL yet, the photos will be broken and the layout won't display properly. It looks pretty bad! No worries: we'll fix this quickly in the next section. The important thing here is to make sure that things were set up properly and that the link works.
+**NOTE**: Because we haven't correctly set the base URL yet, the photos may be broken and the layout won't display properly. The "Home" button may also be broken. If this is the case, no worries: we'll fix this quickly in the next section. The important thing here is to make sure that things were set up properly and that we have a way to see the site as we change it.
 
 Most of the text values are placeholder values for now. As we customize the values in the next section, you should be able to see the changes take place immediately.
 
@@ -49,7 +69,7 @@ Go to the repo that you forked on GitHub (the link should be `www.github.com/YOU
 To change the file, hit the pencil icon near the top-right of the page.
 ![Edit file](https://user-images.githubusercontent.com/4016519/34449766-fe7d9fd0-ecb0-11e7-998a-5f3016dc95fc.png)
 
-The first thing you'll want to do is to enter the correct value for "baseURL", so that the live site will display properly. You should change the value "https://YOUR-USERNAME.github.io/lean-site-template/".
+The first thing you'll need to do is to enter the correct value for "baseURL", so that the live site will display properly. **Make sure you do this!** You should change the value "https://YOUR-USERNAME.github.io/lean-site-template/". Don't forget the trailing slash!
 ![baseURL](https://user-images.githubusercontent.com/4016519/34449814-8a3070f2-ecb1-11e7-80b0-ff012e1b5b2d.png)
 
 
@@ -89,33 +109,41 @@ You can do the following to replace a banner photo:
 
 Please remember that large image files can slow down your website and potentially cause other problems. We recommend using image files no larger than 5mb. If you have an image that is too large, you can easily and freely resize it using websites such as https://imgur.com/ or https://pixlr.com/express/. If you are a Mac user, the ‘Preview’ application in OSX will also allow you to resize your images.
 
-Please also remember to pay attention to copyright permissions for images that you choose. An easy way to find free images is to search for images with creative commons licenses on https://commons.wikimedia.org/wiki/Main_Page or to use content from https://unsplash.com/.
+Please also remember to **pay attention to copyright permissions for images that you choose**. An easy way to find free images is to search for images with creative commons licenses on https://commons.wikimedia.org/wiki/Main_Page or to use content from https://unsplash.com/.
 
 
-## Deploying the Site
+## Deployment & Setting Up Your Domain Name
 
 Deployment is the step where your content goes live and your site becomes accessible to the public on the Internet.
 
 1. If you correctly set up your forked repo on Travis, any commit (change) to a file will trigger a 'build' on Travis – that is, Travis will turn your config and the site template into nice HTML file (set of instructions to a browser to display your content how you want it) to be served up.
 1. It's time to hook up a domain to the site! If you are managing the domain name yourself, go to the 'Settings' tab in your repo and set up a custom domain for your site, following [these instructions](https://medium.com/@supriyakankure/how-to-add-a-custom-domain-to-your-github-page-with-godaddy-84495781143e). If LEAN is managing domain names for you, go to 'Settings' > 'Collaborators & teams' and add 'mondayrain' as a collaborator with 'Write' privileges. Then, contact Richenda at richenda [at] rtcharity.org and provide her a) The domain name you want to use, if you have one in mind, and b) the link to your GitHub repository.
-1. Once the domain is set up (this may take a day or two), go to `config.toml` and change the baseURL value to whatever your new domain is. Once you save this change, you should be able to access your site through the new domain name!
+1. Once the domain is set up (this may take a day or two), go to `config.toml` and change the baseURL value to whatever your new domain is. Don't forget the trailing slash (e.g. 'https://mydomain.com/')! Once you save this change and Travis has finished building your site, you should be able to access your site through the new domain name.
+
+**Note**: at this point, all the links on your site should work (the Home button was, for example, broken because we had a weird GitHub `baseURL`). Multilanguage support should also work once the domain name is set up. If not, feel free to reach out to us.
 
 
-## Setting up the Contact Form
+## Setting Up the Contact Form
 
 The site uses [Formspree](https://formspree.io/) in order to forward Contact messages from the site to the contactEmail you define in `config.toml`. However, before they'll forward messages for you, you will need to confirm your email.
 
-In order to do this:
-1. Make sure your contact email is correctly filled in `config.toml`.
-1. Go to your site's contact page.
-1. Fill out the contact form and hit "Send".
-1. Formspree should send you an email at your contactEmail and ask you to confirm your email address. You may need to check/change your spam filter if you don't get it.
-1. Once your email is confirmed, all messages sent through the contact page should be forwarded to your contactEmail!
+You don't actually need to do anything ahead of time; the first time somebody sends a message through your contact form, Formspree will send an email to you asking you to confirm your email.
+![Confirm email](https://user-images.githubusercontent.com/4016519/34537832-c20e41cc-f07e-11e7-97ca-96c5bb864080.png)
+
+
+Once you've confirmed your email, Formspree will forward all messages entered into the contact form to your email.
+![Forwarded message](https://user-images.githubusercontent.com/4016519/34537841-c7cf9386-f07e-11e7-9fcf-f23a8dcb833b.png)
+
 
 Remember that if you would like an official EA email address for privacy reasons, LEAN can set this up for you if we have not already. Email Richenda at richenda [at] rtcharity.org
 
 
+**Note**: If you don't want to wait for somebody to send you a message in order to set up your contact form, you can submit a test message into the contact form yourself.
+
+
 ## Multilanguage Support
+
+**This will only work if you have already set up your domain name!**
 
 Your site can support as many languages as you want. For each language you want to support, 2 things will need to be done:
 
@@ -127,3 +155,22 @@ The URLS for translated content will always be www.your-domain.com/language-code
 
 
 To see an example site structure with multilingual support, see [this Hugo multilingual example](https://github.com/rayjolt/hugo-multilingual-example) or the official [Hugo documentation on Multilingual Mode](https://gohugo.io/content-management/multilingual/).
+
+
+## Developing/Customizing the Site Generator
+
+If this site generator is too inflexible for you and you would like to develop the site generator further, here are a few pointers to get you started.
+
+**Please note that we do not have the resources to teach individual folks how to develop the site generator. If the resources/notes below are not enough, please consider simply using the site as it comes.**
+
+1. The site generator is built on [Hugo](https://gohugo.io/), an open-source static site generator written in Go. They have great [written documentation](https://gohugo.io/documentation/), as well as a [Youtube playlist of tutorial screencasts](https://www.youtube.com/watch?v=qtIqKaDlqXo&list=PLLAZ4kZ9dFpOnyRlyS-liKL5ReHDcj4G3) to get you started.
+1. The site is split into 2 parts: [the custom LEAN Hugo theme](https://github.com/rtcharity/local-ea-template), and the [actual site generator/template](https://github.com/rtcharity/lean-site-template) (this repo) which uses the theme. The template references the theme as a [git submodule](https://git-scm.com/docs/git-submodule). When you clone the `lean-site-template` generator, you'll need to run `git submodule update --init --recursive` in order to initialize the theme submodule.
+1. This repository contains all the config, written content, and static images; the theme repo contains all of the HTML and CSS for the site.
+1. The site generator is tied to a specific *commit* of the theme. Therefore, if you ever push an update the theme, you will need to also update this repo to point to the new theme commit. Otherwise, the site generator will keep using the older version of the theme. `git submodule update --init --recursive` should always pull the latest version of the theme, so all you need to do is run that and then commit the changes to git.
+
+
+## Contributors
+
+The 1.0 version of this site generator was built by [@henryaj](https://github.com/henryaj) & [@mondayrain](https://github.com/mondayrain).
+
+Additional thanks to those in the LEAN network for proofreading and editing!
