@@ -7,7 +7,7 @@ canonifyURLs = true
 
 # If you are using multiple languages and want a different default,
 # you can change this language code. In this particular case,
-# baseURL will be th english site, and baseURL/<language code> will be the
+# baseURL will be the English site, and baseURL/<language code> will be the
 # other languages.
 DefaultContentLanguage = "en"
 
@@ -27,8 +27,8 @@ DefaultContentLanguage = "en"
   fullTitle = "Effective Altruism Site Title"
   strapline = "Helping you do good better"
 
-  ## -- EA GROUP INFO -- ##
   [Languages.en.groupinfo]
+  ## -- EA GROUP INFO -- ##
   legalOrgName = "Effective Altruism <City Here>"
   orgLocations = "this location and that location"
   contactEmail = "yourEAGroupEmail@here.com"
@@ -48,7 +48,7 @@ DefaultContentLanguage = "en"
   contact= "Contact"
 
   [Languages.en.pages]
-  ## -- Page Headers -- ##
+  ## -- PAGE HEADERS -- ##
   contactPageHeader = "Contact us"
   aboutEAPageHeader = "What is Effective Altruism?"
 
@@ -62,6 +62,7 @@ DefaultContentLanguage = "en"
   bottomBannerText = "A proud member of the effective altruism network"
 
   [Languages.en.contactform]
+  ## -- CONTACT FORM -- ##
   leadText = "Say hi!"
   senderName = "Your name (required)"
   senderEmail = "Your email (required)"
