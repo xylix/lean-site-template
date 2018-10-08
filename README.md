@@ -120,7 +120,7 @@ Deployment is the step where your content goes live and your site becomes access
 1. It's time to hook up a domain to the site! Contact the tech team at tech [at] rtcharity.org and provide a) The domain name you want to use, if you have one in mind, and b) the link to your GitHub repository.
 1. Once the domain is set up (this may take a few days), go to the file called `CNAME` and add your domain in one single line without any slashes or https (e.g. mydomain.com). Example: https://github.com/Martin-Riekert/lean-site-template/blob/master/CNAME
 1. Now go to `config.toml` and change the baseURL value to whatever your new domain is, *with* a trailing slash and the https (e.g. https://mydomain.com/). It is important to use https instead of http. Once you save this change and Travis has finished building your site, you should be able to access your site through the new domain name.
-1. If you run into any trouble during this process, *first* go to 'Settings' > 'Collaborators & teams' and add 'mondayrain' as well as 'guisers' as collaborators with 'Write' privileges. Then email tech [at] rtcharity.org with a description of your issues.
+1. If you run into any trouble during this process, *first* go to 'Settings' > 'Collaborators & teams' and add 'jpzg' as well as 'michaltrzesimiech' as collaborators with 'Write' privileges. Then email tech [at] rtcharity.org with a description of your issues.
 
 **Note**: at this point, all the links on your site should work (the Home button was, for example, broken because we had a weird GitHub `baseURL`). Multilanguage support should also work once the domain name is set up. If not, feel free to reach out to us.
 
