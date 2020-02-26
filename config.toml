@@ -29,9 +29,9 @@ DefaultContentLanguage = "en"
 
   [Languages.en.groupinfo]
   ## -- EA GROUP INFO -- ##
-  legalOrgName = "Effective Altruism <City Here>"
-  orgLocations = "this location and that location"
-  contactEmail = "yourEAGroupEmail@here.com"
+  legalOrgName = "Effective Altruism Helsinki"
+  orgLocations = "Helsinki"
+  contactEmail = "helsinki@altruismi.fi"
 
   [Languages.en.navbar]
   ## -- NAVIGATION BAR HEADERS -- ##
@@ -74,8 +74,8 @@ DefaultContentLanguage = "en"
   # These are the buttons right under the header that appears on the main page.
   # You can use them to link to a mailing list or Facebook page.
   # Make sure the links start with http:// or https://
-  firstButtonText = "First Button Text"
-  firstButtonLink = ""
+  firstButtonLink = "https://www.facebook.com/EffectiveAltruismHY/"
+  firstButtonText = "Check us out on Facebook"
   secondButtonText = "Second Button Text"
   secondButtonLink = ""
   # Remove the # before the text to add the optional Meetup button
@@ -85,6 +85,6 @@ DefaultContentLanguage = "en"
   ## -- EA GROUP FB/TWITTER/MEETUP URLS -- ##
   # If your group does not have URLs for these, just add # before the line
   # to remove the link from the site
-  facebookUrl = ""
-  twitterUrl = ""
-  meetupUrl = ""
+  facebookUrl = "https://www.facebook.com/EffectiveAltruismHY/"
+  # twitterUrl = ""
+  # meetupUrl = ""
