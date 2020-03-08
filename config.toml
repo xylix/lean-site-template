@@ -18,7 +18,7 @@ DefaultContentLanguage = "en"
 
   [Languages]
   [Languages.en]
-  title = "EA Helsinki"
+  title = "Effective Altruism Helsinki"
   weight = 1
   languageCode = "en"
 
