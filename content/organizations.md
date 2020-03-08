@@ -1,13 +1,13 @@
 ---
 title: "Organization"
-date: 2017-12-28T15:58:33-08:00
+date: 2019-12-28T15:58:33-08:00
 draft: false
 ---
 
 ## Organizations
 <br>
 
-__**[AMF](http://www.againstmalaria.com/Default.aspx%20https://www.givewell.org/international/technical/programs/insecticide-treated-nets#HowcosteffectiveisLLINdistribution)**__: The Against Malaria Foundation (AMF) is a non-profit that funds the distribution of long-lasting insecticidal nets (LLIN) to areas with high incidence of malaria, mostly in Africa. GiveWell has recommended AMF as a top charity several times. As of 2017, GiveWell estimated that it costs AMF about $4.22 to distribute one LLIN and $3,000 per equivalent under-5 year old life saved.
+__**[AMF](http://www.againstmalaria.com/Default.aspx%20https://www.givewell.org/international/technical/programs/insecticide-treated-nets#HowcosteffectiveisLLINdistribution)**__: The Against Malaria Foundation (AMF) is a non-profit that funds the distribution of long-lasting insecticidal nets (LLIN) to areas with high incidence of malaria, mostly in Africa. GiveWell has recommended AMF as a top charity several times. As of 2019, GiveWell estimated that it costs AMF about $4.22 to distribute one LLIN and $3,000 per equivalent under-5 year old life saved.
 
 __**[Animal Charity Evaluators](http://www.animalcharityevaluators.org/)**__ investigates the most effective ways of reducing non-human animal suffering. Since there are many non-human animals living in extremely painful conditions on factory farms, animal suffering could be a very highly effective altruistic cause.
 
