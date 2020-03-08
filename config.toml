@@ -18,13 +18,13 @@ DefaultContentLanguage = "en"
 
   [Languages]
   [Languages.en]
-  title = "Local EA Website"
+  title = "EA Helsinki"
   weight = 1
   languageCode = "en"
 
   [Languages.en.general]
   ## -- GENERAL SITE PARAMETERS -- ##
-  fullTitle = "Effective Altruism Site Title"
+  fullTitle = "Effective Altruism Helsinki"
   strapline = "Helping you do good better"
 
   [Languages.en.groupinfo]
