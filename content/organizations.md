@@ -17,8 +17,6 @@ __**[Center for Applied Rationality](http://rationality.org/)**__ runs 4 day wor
 
 __**[Charity Science Foundation](http://www.charityscience.com/)**__ The Charity Science Foundation 
 
-__**[Effective Altruism Ventures](http://www.eaventures.org/)**__ is a VC fund designed for incubating projects that create a lot of social value.
-
 __**[FHI](http://www.fhi.ox.ac.uk/research/research-areas/)**__: The Future of Humanity Institute (FHI) is a research center at Oxford that is a leading producer of research on existential risk. FHI’s main areas of research are global catastrophic risk, applied epistemology, human enhancement, and future technologies.
 
 __**[GiveWell](http://www.givewell.org/about)**__: GiveWell is a non-profit that evaluates charities in order to find outstanding giving opportunities. In particular, GiveWell seesk out charities who provide strong evidence of impact-per-dollar and room for more funding, and who can demonstrate trustworthiness and transparency. GiveWell recommends just a few charities at a time and these recommendations inform the donations of many effective altruists.
