@@ -1,1 +1,1 @@
-We are a welcoming group dedicated to promoting, inspiring and supporting one another to achieve altruistic goals.
+Effective Altruism Helsinki is a welcoming community dedicated to promoting, inspiring and supporting one another to achieve altruistic goals. We organize meetups every first Thursday of the month, as well as occasional workshops and discussion groups. These are announced on Facebook and our mailing list.

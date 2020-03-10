@@ -76,8 +76,8 @@ DefaultContentLanguage = "en"
   # Make sure the links start with http:// or https://
   firstButtonLink = "https://www.facebook.com/EffectiveAltruismHY/"
   firstButtonText = "Check us out on Facebook"
-  secondButtonText = "Second Button Text"
-  secondButtonLink = ""
+  secondButtonText = "Contact Us"
+  secondButtonLink = baseURL + "contact/"
   # Remove the # before the text to add the optional Meetup button
   # meetupButtonText = "Find us on Meetup"
 
