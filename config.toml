@@ -58,7 +58,7 @@ DefaultContentLanguage = "en"
   firstSectionHeader = "Doing good better"
   secondSectionHeader = "Building a community"
   thirdSectionHeader = "Finding better ways to help"
-  bottomBannerText = "A proud member of the effective altruism network"
+  # bottomBannerText = "A proud member of the effective altruism network"
 
   [Languages.en.contactform]
   ## -- CONTACT FORM -- ##
@@ -81,6 +81,77 @@ DefaultContentLanguage = "en"
   # meetupButtonText = "Find us on Meetup"
 
   [Languages.en.urls]
+  ## -- EA GROUP FB/TWITTER/MEETUP URLS -- ##
+  # If your group does not have URLs for these, just add # before the line
+  # to remove the link from the site
+  facebookUrl = "https://www.facebook.com/EffectiveAltruismHY/"
+  # twitterUrl = ""
+  # meetupUrl = ""
+
+  [Languages.fi]
+  languageCode = "fi"
+  title = "Effective Altruism Helsinki"
+  weight = 2
+
+  [Languages.fi.general]
+  ## -- GENERAL SITE PARAMETERS -- ##
+  fullTitle = "Effective Altruism Helsinki"
+  strapline = "Autamme sinua tekemään hyvää paremmin."
+
+  [Languages.fi.groupinfo]
+  ## -- EA GROUP INFO -- ##
+  legalOrgName = "Effective Altruism Helsinki"
+  orgLocations = "Helsinki"
+  contactEmail = "helsinki@altruismi.fi"
+
+  [Languages.fi.navbar]
+  ## -- NAVIGATION BAR HEADERS -- ##
+  # You probably don't need/want to change these,
+  # but if you do you'll also want to change the relevant .md file under the
+  # content folder so the copy corresponds with the header.
+  home = "Koti"
+  effectiveAltruism = "Efektiivinen altruismi"
+  aboutEA = "Tietoa efektiivisestä altruismista"
+  readingMaterial = "Luettavaa"
+  keyTerms = "Keskeisiä käsitteitä"
+  organizations = "Organisaatioita"
+  contact= "Ota yhteyttä"
+
+  [Languages.fi.pages]
+  ## -- PAGE HEADERS -- ##
+  contactPageHeader = "Ota yhteyttä"
+  aboutEAPageHeader = "Mitä on efektiivenen altruismi?"
+
+  [Languages.fi.homepage]
+   ## -- HOMEPAGE -- ##
+  topBannerText = "Keitä me olemme?"
+  leadText = "Olemme yhteisö, joka pyrkii auttamaan toisiaan vastaamaan kysymykseen: Miten voin tehdä hyvää paremmin?"
+  firstSectionHeader = "Hyvän tekeminen, paremmin"
+  secondSectionHeader = "Liity yhteisömme"
+  thirdSectionHeader = "Etsimme parhaita tapoja tehdä hyvää"
+  bottomBannerText = ""
+
+  [Languages.fi.contactform]
+  ## -- CONTACT FORM -- ##
+  leadText = "Sano hei!"
+  senderName = "Nimesi (pakollinen)"
+  senderEmail = "Sähköpostiosoitteesi (pakollinen)"
+  emailSubject = "Aihe"
+  emailMessage = "Viestisi sisältö"
+  send = "Lähetä"
+
+  [Languages.fi.jumbotron]
+  # These are the buttons right under the header that appears on the main page.
+  # You can use them to link to a mailing list or Facebook page.
+  # Make sure the links start with http:// or https://
+  firstButtonLink = "https://www.facebook.com/EffectiveAltruismHY/"
+  firstButtonText = "Facebook"
+  secondButtonText = "Contact Us"
+  secondButtonLink = "https://oaarne.github.io/lean-site-template/contact/"
+  # Remove the # before the text to add the optional Meetup button
+  # meetupButtonText = "Find us on Meetup"
+
+  [Languages.fi.urls]
   ## -- EA GROUP FB/TWITTER/MEETUP URLS -- ##
   # If your group does not have URLs for these, just add # before the line
   # to remove the link from the site
