@@ -1,2 +1,2 @@
 Effective Altruism Helsinki is a welcoming community dedicated to promoting, inspiring and supporting one another to achieve altruistic goals. We organize meetups on every first Thursday of the month, as well as occasional workshops and discussion groups. These are announced on Facebook and our mailing list. You can join our mailing list by emailing
-`subscribe ea-helsinki your.email@address` to `majordomo@helsinki.fi`
+`subscribe ea-helsinki your.email@address` to `majordomo@helsinki.fi`.
