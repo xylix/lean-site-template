@@ -1,0 +1,17 @@
+{{ partial "header.html" . }}
+
+<div class="container-fluid no-gutter">
+  <div id="top-banner" class="row banner-section" style="background-image:url('{{ .Site.BaseURL}}/img/about-ea-banner.jpg')">
+    <div class="all-center"><span class="banner-section-text">{{ .Site.Params.pages.aboutEAPageHeader }}</span></div>
+  </div>
+</div>
+
+<div class="container text-banner">
+  <div class="row">
+    <div class="col">
+      {{ .Content }}
+    </div>
+  </div>
+</div>
+
+{{ partial "footer.html" . }}

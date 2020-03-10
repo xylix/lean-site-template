@@ -1,0 +1,31 @@
+<div class="container text-banner">
+  <div class="row">
+    <div class="col-sm-4">{{ with .Site.GetPage "page" "_footer-left" }}{{ .Content | markdownify }}{{ end }}</div>
+    <div class="col-sm-8">{{ with .Site.GetPage "page" "_footer-right" }}{{ .Content | markdownify }}{{ end }}</div>
+  </div>
+  <div class="row">
+    <div id="footer-legal" class="col-12">
+      © {{ .Date.Format "2006" }} {{ .Site.Params.groupinfo.LegalOrgName }}, {{ .Site.Params.groupinfo.OrgLocations }}.
+    </div>
+  </div>
+  <div class="row">
+    <div id="footer-legal" class="col-12">
+      <a href="mailto:{{ .Site.Params.groupinfo.ContactEmail }}"><i class="fas fa-envelope-square fa-3x"></i></a>
+      {{ if isset .Site.Params.urls "facebookurl" }}
+        <a href="{{ .Site.Params.urls.FacebookUrl }}"><i class="fab fa-facebook-square fa-3x"></i></a>
+      {{ end }}
+      {{ if isset .Site.Params.urls "twitterurl" }}
+        <a href="{{ .Site.Params.urls.TwitterUrl }}"><i class="fab fa-twitter-square fa-3x"></i></a>
+      {{ end }}
+      {{ if isset .Site.Params.urls "meetupurl" }}
+        <a href="{{ .Site.Params.urls.MeetupUrl }}"><i class="fab fa-meetup fa-3x"></i></a>
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>
