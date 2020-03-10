@@ -75,6 +75,10 @@ textarea {
   padding-left: 5px;
 }
 
+.input-field {
+  width: 40%;
+}
+
 #ea-main-logo {
   margin-bottom: 2em;
   height: 220px;
