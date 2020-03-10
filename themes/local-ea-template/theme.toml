@@ -1,0 +1,15 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "EA Local Theme"
+license = "MIT"
+licenselink = "https://github.com/rtcharity/local-ea-template/blob/master/LICENSE.md"
+description = "A minimalist theme for Effective Altruism local chapters to use"
+homepage = "https://github.com/rtcharity/local-ea-template/blob/master/LICENSE.md"
+tags = []
+features = []
+min_version = "0.30.2"
+
+[author]
+  name = "Henry Stanley"
+  homepage = "henrystanley.com"

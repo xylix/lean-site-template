@@ -1,0 +1,7 @@
+{{ if .Site.IsMultiLingual }}
+  {{ range .Site.Languages }}
+    <li class="nav-item">
+      <a class="nav-link" href="{{ delimit (slice "/" .) "" }}" class="lang">{{ . }}</a>
+    </li>
+  {{ end }}
+{{ end }}
