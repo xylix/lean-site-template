@@ -9,7 +9,7 @@ canonifyURLs = true
 # you can change this language code. In this particular case,
 # baseURL will be the English site, and baseURL/<language code> will be the
 # other languages.
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "fi"
 
 # These params are used by the local EA Hugo template
 # used to generate the site. You can find the template
@@ -19,7 +19,7 @@ DefaultContentLanguage = "en"
   [Languages]
   [Languages.en]
   title = "Effective Altruism Helsinki"
-  weight = 1
+  weight = 2
   languageCode = "en"
 
   [Languages.en.general]
@@ -91,7 +91,7 @@ DefaultContentLanguage = "en"
   [Languages.fi]
   languageCode = "fi"
   title = "Effective Altruism Helsinki"
-  weight = 2
+  weight = 1
 
   [Languages.fi.general]
   ## -- GENERAL SITE PARAMETERS -- ##
