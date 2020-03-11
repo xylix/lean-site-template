@@ -18,7 +18,7 @@ DefaultContentLanguage = "fi"
 
   [Languages]
   [Languages.en]
-  title = "Effective Altruism Helsinki"
+  title = "EA Helsinki"
   weight = 2
   languageCode = "en"
 
@@ -90,7 +90,7 @@ DefaultContentLanguage = "fi"
 
   [Languages.fi]
   languageCode = "fi"
-  title = "Effective Altruism Helsinki"
+  title = "EA Helsinki"
   weight = 1
 
   [Languages.fi.general]
