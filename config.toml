@@ -19,7 +19,7 @@ DefaultContentLanguage = "fi"
   [Languages]
   [Languages.en]
   title = "EA Helsinki"
-  weight = 2
+  weight = 1
   languageCode = "en"
 
   [Languages.en.general]
@@ -91,7 +91,7 @@ DefaultContentLanguage = "fi"
   [Languages.fi]
   languageCode = "fi"
   title = "EA Helsinki"
-  weight = 1
+  weight = 2
 
   [Languages.fi.general]
   ## -- GENERAL SITE PARAMETERS -- ##
