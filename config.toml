@@ -39,8 +39,8 @@ DefaultContentLanguage = "en"
   # but if you do you'll also want to change the relevant .md file under the
   # content folder so the copy corresponds with the header.
   home = "Home"
-  effectiveAltruism = "Effective Altruism"
-  aboutEA = "About EA"
+  effectiveAltruism = "More Resources"
+  aboutEA = "Effective Altruism"
   readingMaterial = "Reading Material"
   keyTerms = "Key Terms"
   organizations = "Organizations"
@@ -110,17 +110,17 @@ DefaultContentLanguage = "en"
   # but if you do you'll also want to change the relevant .md file under the
   # content folder so the copy corresponds with the header.
   home = "Etusivu"
-  effectiveAltruism = "Efektiivinen altruismi"
-  aboutEA = "Tietoa efektiivisestä altruismista"
-  readingMaterial = "Luettavaa"
-  keyTerms = "Keskeisiä käsitteitä"
-  organizations = "Organisaatioita"
+  # effectiveAltruism = "Efektiivinen altruismi"
+  aboutEA = "Mitä on efektiivinen altruismi?"
+  # readingMaterial = "Luettavaa"
+  # keyTerms = "Keskeisiä käsitteitä"
+  # organizations = "Organisaatioita"
   contact= "Ota yhteyttä"
 
   [Languages.fi.pages]
   ## -- PAGE HEADERS -- ##
   contactPageHeader = "Ota yhteyttä"
-  aboutEAPageHeader = "Mitä on efektiivenen altruismi?"
+  aboutEAPageHeader = "Mitä on efektiivinen altruismi?"
 
   [Languages.fi.homepage]
    ## -- HOMEPAGE -- ##
