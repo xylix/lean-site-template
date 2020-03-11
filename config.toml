@@ -146,7 +146,7 @@ DefaultContentLanguage = "en"
   # Make sure the links start with http:// or https://
   firstButtonLink = "https://www.facebook.com/EffectiveAltruismHY/"
   firstButtonText = "Facebook"
-  secondButtonText = "Contact Us"
+  secondButtonText = "Ota yhteyttä"
   secondButtonLink = "https://oaarne.github.io/lean-site-template/contact/"
   # Remove the # before the text to add the optional Meetup button
   # meetupButtonText = "Find us on Meetup"
