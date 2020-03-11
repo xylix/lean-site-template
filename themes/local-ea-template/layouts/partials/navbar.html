@@ -13,7 +13,7 @@
                 <li class="nav-item">
                   <a class="nav-link" href="{{ "effective-altruism" | absLangURL }}">{{ .Site.Params.navbar.AboutEA }} </a>
                 </li>
-                {{ with .Site.Params.navbar.EffectiveAltruism }}
+                {{ if ( isset .Site.Params.navbar "EffectiveAltruism" ) }}
                 <div class="dropdown">
                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="{{ .Site.BaseURL }}">{{ .Site.Params.navbar.EffectiveAltruism }}<span class="caret"></span></a>
                    <ul class="dropdown-menu">
