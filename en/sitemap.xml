@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://www.altruismi.fi/en/contact/</loc>
+    <lastmod>2020-03-10T20:13:52+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fi"
+                href="https://www.altruismi.fi/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.altruismi.fi/en/contact/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.altruismi.fi/en/effective-altruism/</loc>
+    <lastmod>2020-03-10T20:13:52+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fi"
+                href="https://www.altruismi.fi/effective-altruism/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.altruismi.fi/en/effective-altruism/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.altruismi.fi/en/key-terms/</loc>
+    <lastmod>2020-03-10T20:13:52+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.altruismi.fi/en/organizations/</loc>
+    <lastmod>2020-03-10T20:13:52+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.altruismi.fi/en/reading-material/</loc>
+    <lastmod>2020-03-10T20:13:52+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.altruismi.fi/en/_footer-left/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fi"
+                href="https://www.altruismi.fi/_footer-left/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.altruismi.fi/en/_footer-left/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.altruismi.fi/en/_footer-right/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fi"
+                href="https://www.altruismi.fi/_footer-right/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.altruismi.fi/en/_footer-right/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.altruismi.fi/en/homepage/_first_section_text/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fi"
+                href="https://www.altruismi.fi/homepage/_first_section_text/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.altruismi.fi/en/homepage/_first_section_text/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.altruismi.fi/en/homepage/_second_section_text/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fi"
+                href="https://www.altruismi.fi/homepage/_second_section_text/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.altruismi.fi/en/homepage/_second_section_text/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.altruismi.fi/en/homepage/_third_section_text/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fi"
+                href="https://www.altruismi.fi/homepage/_third_section_text/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.altruismi.fi/en/homepage/_third_section_text/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.altruismi.fi/en/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fi"
+                href="https://www.altruismi.fi/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.altruismi.fi/en/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.altruismi.fi/en/</loc>
+    <lastmod>2020-03-10T20:13:52+02:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fi"
+                href="https://www.altruismi.fi/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.altruismi.fi/en/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.altruismi.fi/en/homepage/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fi"
+                href="https://www.altruismi.fi/homepage/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.altruismi.fi/en/homepage/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://www.altruismi.fi/en/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fi"
+                href="https://www.altruismi.fi/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.altruismi.fi/en/tags/"
+                />
+  </url>
+  
+</urlset>

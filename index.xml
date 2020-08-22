@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EA Helsinki</title>
+    <link>https://www.altruismi.fi/</link>
+    <description>Recent content on EA Helsinki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fi</language>
+    <lastBuildDate>Tue, 10 Mar 2020 20:13:52 +0200</lastBuildDate>
+    
+	<atom:link href="https://www.altruismi.fi/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Efektiivinen altruismi</title>
+      <link>https://www.altruismi.fi/effective-altruism/</link>
+      <pubDate>Tue, 10 Mar 2020 20:13:52 +0200</pubDate>
+      
+      <guid>https://www.altruismi.fi/effective-altruism/</guid>
+      <description>Efektiivinen altruismi on filosofia ja ja liike, joka soveltaa järkeä ja todisteperäistä tietoa löytääkseen kaikkein tehokkaimmat tavat parantaa maailmaa. Efektiiviset altruistit pyrkivät punnitsemaan kaikkia maailman ongelmia ja mahdollisia vaikutusalueita, ja sitten toimimaan tavalla, jolla on suurin positiivinen vaikutus. Laaja-alaisuus ja näyttöön perustuva lähestymistapa erottavat efektiivisen altruismin perinteisistä lähestymistavoista maailman parantamiseen ja hyväntekeväisyyteen. Vaikka monet osa efektiiviset altruistit kiinnittävät huomionsa lähinnä hyväntekeväisyysjärjestöihin, efektiivisen altruismin filosofiaa sovelletaan hyvin laajalti myös muihin yhteyksiin, esim.</description>
+    </item>
+    
+    <item>
+      <title>Ota yhteyttä</title>
+      <link>https://www.altruismi.fi/contact/</link>
+      <pubDate>Tue, 10 Mar 2020 20:13:52 +0200</pubDate>
+      
+      <guid>https://www.altruismi.fi/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.altruismi.fi/_footer-left/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.altruismi.fi/_footer-left/</guid>
+      <description> Lisää EA:sta  Suomeksi tietoa löytyy Wikipediasta Englanninkielinen johdatus efektiiviseen altruismiin Video: The Why and How of Effective Altruism Kokelma tietolähteitä Giving 101: The Basics Doing Good Better by Will MacAskill  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.altruismi.fi/_footer-right/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.altruismi.fi/_footer-right/</guid>
+      <description> Hyödyllisiä linkkejä  effectivealtruism.org 80,000 Hours GiveWell The Life You Can Save Centre for Effective Altruism Rethink Charity  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.altruismi.fi/homepage/_first_section_text/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.altruismi.fi/homepage/_first_section_text/</guid>
+      <description>Efektiivisessä altruismissa on kyse järjen ja todistepohjaisen tiedon hyödyntämisestä, jotta voimme auttaa muita mahdollisimman tehokkaasti niillä resursseilla mitä siihen omistamme.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.altruismi.fi/homepage/_second_section_text/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.altruismi.fi/homepage/_second_section_text/</guid>
+      <description>Effective Altruism Helsinki on lämminhenkinen yhteisö, joka tukee jäseniään heidän altruististen tavoitteiden saavuttamisessa. Organisoimme työpajoja, keskustelutapahtumia ja muuta toimintaa, sekä kuukausittaisen meetupin joka kuukauden ensimmäisenä torstaina. Tapahtumistamme tiedotetaan Facebookissa ja sähköpostilistallamme. Voit liittyä sähköpostilistallemme lähettämällä viestin subscribe ea-helsinki sinun.sposti@osoitteesi.esim osoitteeseen majordomo@helsinki.fi.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.altruismi.fi/homepage/_third_section_text/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.altruismi.fi/homepage/_third_section_text/</guid>
+      <description>Koska iso osa yhteisöstämme koostuu opiskelijoista ja hiljattain valmistuneista, yhteisömme keskittyy eritysesti auttamaan toisiamme tekemään uravalintoja, joiden kautta voimme tehdä mahdollisimman paljon hyvää. Tutkimusten perusteella uskomme, että valitsemalla urasuuntansa huolellisesti voi tehdä jopa kymmeniä kertoja enemmän hyvää. Jos haluat tavata jonkun organisoijistamme keskustellaksesi tarkemmin siitä, miten voit löytää itsellesi tehokkaimmat tavat tehdä hyvää, täytäthän lomakkeemme.</description>
+    </item>
+    
+  </channel>
+</rss>
