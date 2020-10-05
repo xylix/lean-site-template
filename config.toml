@@ -45,7 +45,6 @@ DefaultContentLanguage = "fi"
   keyTerms = "Key Terms"
   organizations = "Organizations"
   contact= "Contact"
-  fuksihaaste = "Fresher Challenge"
 
   [Languages.en.pages]
   ## -- PAGE HEADERS -- ##
