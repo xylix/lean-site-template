@@ -160,3 +160,8 @@ DefaultContentLanguage = "fi"
   facebookUrl = "https://www.facebook.com/EffectiveAltruismHY/"
   # twitterUrl = ""
   # meetupUrl = ""
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
