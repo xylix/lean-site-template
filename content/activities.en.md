@@ -2,7 +2,7 @@
 title: "What we do"
 date: 2021-01-26T20:13:52+02:00
 draft: false
-type: "activities"
+type: "content-page-with-nice-header"
 ---
 
 The best way to hear about our events is to follow our [Facebook page](https://www.facebook.com/EffectiveAltruismHY). Alternatively, you can join our mailing list by emailing `subscribe ea-helsinki your.email@address` to `majordomo@helsinki.fi`. We also have [an active Telegram group](https://t.me/joinchat/ETcjugn0g82KDDTK) where you can come chat with us, and where events are also announced.

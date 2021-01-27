@@ -2,7 +2,7 @@
 title: "Mitä teemme"
 date: 2021-01-26T20:13:52+02:00
 draft: false
-type: "activities"
+type: "content-page-with-nice-header"
 ---
 
 Paras tapa pysyä ajan tasalla tapahtumistamme on seurata [Facebook-sivuamme](https://www.facebook.com/EffectiveAltruismHY). Vaihtoehtoisesti voit liittyä sähköpostituslistallemme lähettämällä viestin `subscribe ea-helsinki your.email@address` osoitteeseen `majordomo@helsinki.fi`. Telegram-ryhmämme on myös aktiivinen; siellä voit kysellä kysymyksiäsi efektiivisestä altruismista, ja kuulla tulevista tapahtumista.
