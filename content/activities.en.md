@@ -18,3 +18,6 @@ If you want to contribute to organizing our activities, or would like help and i
 We also have a **career club** of people who meet fortnightly to discuss self-improvement and short and long term career development on a more personal level. If you'd like to join the career club, you can bring it up in your 1-on-1!
 
 We also occasionally organize workshops on topics such as career planning and decision-making skills.
+
+<br/>
+<iframe src="https://calendar.google.com/calendar/embed?src=82g98l54kdf4a7sh6j4qumelbo%40group.calendar.google.com&ctz=Europe%2FHelsinki" style="border:0 #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>

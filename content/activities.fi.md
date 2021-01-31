@@ -18,3 +18,6 @@ Jos haluat osallistua toimintamme järjestämiseen tai kaipaat tukea ja ideoita 
 Järjestämme myös **uraklubia**, joka kokoontuu kahden viikon välein keskustelemaan itsemme ja uriemme kehittämisestä. Jos olet kiinnostunut liitymään uraklubiimme, mainitse siitä tapaamisessasi aktiivin kanssa, tai laita meiliä!
 
 Järjestämme ajoittain myös työpajoja erilaisista aiheista, kuten urasuunnittelu ja päätöksentekötaidot.
+
+<br/>
+<iframe src="https://calendar.google.com/calendar/embed?src=82g98l54kdf4a7sh6j4qumelbo%40group.calendar.google.com&ctz=Europe%2FHelsinki" style="border:0 #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
