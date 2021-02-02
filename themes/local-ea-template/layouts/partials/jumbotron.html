@@ -9,6 +9,9 @@
       {{ if isset .Site.Params.jumbotron "meetupbuttontext" }}
         <a href="{{ .Site.Params.urls.meetupUrl }}" class="btn btn-danger">{{ .Site.Params.jumbotron.meetupButtonText }}</a>
       {{ end }}
+      {{ if isset .Site.Params.jumbotron "fellowshipbuttontext" }}
+        <a href="{{ .Site.Params.urls.fellowshipUrl }}" class="btn btn-warning" target="_blank" rel="noopener noreferrer">{{ .Site.Params.jumbotron.fellowshipButtonText }}</a>
+      {{ end }}
     </p>
   </div>
 </section>

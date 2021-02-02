@@ -80,6 +80,7 @@ DefaultContentLanguage = "fi"
   secondButtonLink = "https://oaarne.github.io/lean-site-template/contact/"
   # Remove the # before the text to add the optional Meetup button
   # meetupButtonText = "Find us on Meetup"
+  fellowshipButtonText = "Apply for the Spring 2021 Fellowship"
 
   [Languages.en.urls]
   ## -- EA GROUP FB/TWITTER/MEETUP URLS -- ##
@@ -88,6 +89,7 @@ DefaultContentLanguage = "fi"
   facebookUrl = "https://www.facebook.com/EffectiveAltruismHY/"
   # twitterUrl = ""
   # meetupUrl = ""
+  fellowshipUrl = "https://eahy-fellowship.fi"
 
   [Languages.fi]
   languageCode = "fi"
@@ -152,6 +154,7 @@ DefaultContentLanguage = "fi"
   secondButtonLink = "https://oaarne.github.io/lean-site-template/contact/"
   # Remove the # before the text to add the optional Meetup button
   # meetupButtonText = "Find us on Meetup"
+  fellowshipButtonText = "Kevään 2021 Fellowship-haku nyt avoinna!"
 
   [Languages.fi.urls]
   ## -- EA GROUP FB/TWITTER/MEETUP URLS -- ##
@@ -160,6 +163,7 @@ DefaultContentLanguage = "fi"
   facebookUrl = "https://www.facebook.com/EffectiveAltruismHY/"
   # twitterUrl = ""
   # meetupUrl = ""
+  fellowshipUrl = "https://eahy-fellowship.fi"
 
 [markup]
   [markup.goldmark]
