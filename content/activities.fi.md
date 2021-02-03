@@ -9,11 +9,11 @@ Paras tapa pysyä ajan tasalla tapahtumistamme on seurata [Facebook-sivuamme](ht
 
 Säännöllisin toimintamuotomme ovat kuukausittaiset keskustelutapahtumat eli **"meetupit"**, jotka osuvat yleensä kuun ensimmäiselle torstaille. Pandemiatilanteen vuoksi nämä ja useimmat muut tapahtumistamme sijoittuvat [Discord-palvelimellemmme](https://discord.gg/UwtykUk).
 
-Meetuppiin osallistumisen lisäksi paras ensiaskel toimintaan osallistumisessa on [jäsenhakemuksen täyttäminen](https://airtable.com/shrbLGKhKaTLGI911). Jäsenyys on ilmaista! Ja koska haluamme tutustua uusiin tehokkaasta hyväntekemisestä kiinnostuneisiin ihmisiin, lomake antaa myös mahdollisuuden ilmoittaa olevansa kiinnostunut varaamaan puhelun joku aktiiveistamme kanssa, jotta voimme tutustua, ja pääset kysymään mitä vain mielessäsi olevia kysymyksiä efektiivisestä altruismista. 
+Meetuppiin osallistumisen lisäksi paras ensiaskel toimintaan osallistumisessa on [jäsenhakemuksen täyttäminen](https://airtable.com/shrbLGKhKaTLGI911). Jäsenyys on ilmaista! Ja koska haluamme tutustua uusiin tehokkaasta hyväntekemisestä kiinnostuneisiin ihmisiin, lomake antaa myös mahdollisuuden ilmoittaa olevansa kiinnostunut varaamaan puhelun jonkun aktiiveistamme kanssa, jotta voimme tutustua, ja pääset kysymään *mitä vain* mielessäsi olevia kysymyksiä efektiivisestä altruismista. 
 
 Järjestämme maaliskusta alkaen myös ["fellowshipin"](https://eahy-fellowship.fi/), joka on käytännössä kahdeksan viikon pituinen **efektiivisen altruismin johdantokurssi**. Fellowship koostuu viikottaisista keskustelutapaamisista pienryhmissä, jota ennen on luettu parin tunnin verran materiaaleja. Fellowshipin keskeinen tavoite on myös antaa osallistujille mahdollisuus tutustua toisiinsa ja paikalliseen EA-yhteisöön, samalla kun pääsee painimaan tärkeiden ideoiden kanssa, jotka auttavat löytämään itselleen parhaan tavan parantaa maailmaa. Haku fellowshipiin alkaa helmikuun alussa!
 
-Jos haluat osallistua toimintamme järjestämiseen tai kaipaat tukea ja ideoita toteuttaaksesi oman efektiiviseen altruismiin liittyvän projektisi, voit liittyä co-working tapaamisiimme, jollaisia on joka keskiviikko klo 18 alkaen [Discordissamme](https://discord.gg/UwtykUk).
+Jos haluat osallistua toimintamme järjestämiseen tai kaipaat tukea ja ideoita toteuttaaksesi oman efektiiviseen altruismiin liittyvän projektisi, voit liittyä co-working -tapaamisiimme, joita järjestetään joka keskiviikko klo 18 alkaen [Discordissamme](https://discord.gg/UwtykUk).
 
 Järjestämme myös **uraklubia**, joka kokoontuu kahden viikon välein keskustelemaan itsemme ja uriemme kehittämisestä. Jos olet kiinnostunut liitymään uraklubiimme, mainitse siitä tapaamisessasi aktiivin kanssa, tai laita meiliä!
 
