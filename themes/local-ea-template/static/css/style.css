@@ -13,8 +13,39 @@ textarea {
 }*/
 
 .lead, div, p, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: 'Libre Franklin', sans-serif;
+  /*font-family: 'Libre Franklin', serif;*/
+  font-family: 'Alice', serif;
   font-weight: 300;
+}
+
+.lead, .banner-section-text,  h2, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  /*font-family: 'Josefin Sans', sans-serif;*/
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav-link, #footer-legal {
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 300;
+}
+
+/* override btn-primary (facebook button) color to better match logo */
+.btn-primary {
+  background-color: #0b879d;
+  border-color: #0b879d;
+}
+
+/* override link color to better match logo */
+a, a:hover {
+  color: #0b879d;
+}
+
+/* ...but don't do that for the facebook and twitter buttons */
+.svg-inline--fa {
+  color: #343a40;
+}
+
+.svg-inline--fa:hover {
+  color: #4582EC;
 }
 
 .jumbotron {
@@ -23,6 +54,7 @@ textarea {
 }
 
 .navbar-brand {
+  font-family: 'Catamaran', sans-serif;
   font-weight: 300;
   letter-spacing: 2.75px;
   font-size: 1.9em;
@@ -46,6 +78,10 @@ textarea {
   left: 50%;
   position: absolute;
   text-align: center;
+}
+
+.text-align-left {
+  text-align:left;
 }
 
 .banner-section-text {
