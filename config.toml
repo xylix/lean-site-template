@@ -130,7 +130,7 @@ DefaultContentLanguage = "fi"
    ## -- HOMEPAGE -- ##
   topBannerText = "Keitä me olemme?"
   leadText = "Pyrimme auttamaan toisiamme vastaamaan kysymykseen \"Miten voin tehdä hyvää paremmin?\""
-  firstSectionHeader = "Hyvän tekeminen, paremmin"
+  firstSectionHeader = "Efektiivinen altruismi?"
   secondSectionHeader = "Liity yhteisöömme"
   thirdSectionHeader = "Etsimme parhaita tapoja tehdä hyvää"
   bottomBannerText = ""

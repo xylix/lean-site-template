@@ -1,1 +1,1 @@
-Efektiivisessä altruismissa on kyse järjen ja todistepohjaisen tiedon hyödyntämisestä, jotta voimme auttaa muita mahdollisimman tehokkaasti käyttäen saatavilla olevia resursseja.
+Efektiivinen altruismi on maailmanlaajuinen filosofia ja ja liike, joka soveltaa järkeä ja todisteperäistä tietoa löytääkseen kaikkein tehokkaimmat tavat parantaa maailmaa. 
