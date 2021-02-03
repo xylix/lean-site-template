@@ -59,7 +59,7 @@ a, a:hover {
 /* add vertical spacing between jumbotron buttons in case they're laid on top of each other */
 
 .btn-primary, .btn-secondary, .btn-warning {
-  margin-bottom: 0.25em;
+  margin-bottom: 0.4em;
 }
 
 /* --- */
