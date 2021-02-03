@@ -129,7 +129,7 @@ DefaultContentLanguage = "fi"
   [Languages.fi.homepage]
    ## -- HOMEPAGE -- ##
   topBannerText = "Keitä me olemme?"
-  leadText = "Olemme yhteisö, joka pyrkii auttamaan toisiaan vastaamaan kysymykseen: Miten voin tehdä hyvää paremmin?"
+  leadText = "Pyrimme auttamaan toisiamme vastaamaan kysymykseen \"Miten voin tehdä hyvää paremmin?\""
   firstSectionHeader = "Hyvän tekeminen, paremmin"
   secondSectionHeader = "Liity yhteisöömme"
   thirdSectionHeader = "Etsimme parhaita tapoja tehdä hyvää"
