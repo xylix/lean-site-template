@@ -154,7 +154,7 @@ DefaultContentLanguage = "fi"
   secondButtonLink = "https://oaarne.github.io/lean-site-template/contact/"
   # Remove the # before the text to add the optional Meetup button
   # meetupButtonText = "Find us on Meetup"
-  fellowshipButtonText = "Hae kevään 2021 Fellowship:iin!" # uncomment to make button visible
+  # fellowshipButtonText = "Hae kevään 2021 Fellowship:iin!" # uncomment to make button visible
 
   [Languages.fi.urls]
   ## -- EA GROUP FB/TWITTER/MEETUP URLS -- ##
