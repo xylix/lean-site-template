@@ -1,6 +1,7 @@
 <div class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
       <div class="container">
-        <a href="{{ "/" | absLangURL }}" class="navbar-brand">{{ .Site.Title | upper }}</a>
+        <!--<a href="{{ "/" | absLangURL }}" class="navbar-brand">{{ .Site.Title | upper }}</a> --><!--text logo -->
+        <a href="{{ "/" | absLangURL }}" class="navbar-brand"><img src="{{ .Site.BaseURL}}/img/ea_logo_navbar.png" alt="Effective Altruism Helsinki" style="height:1.6em;"/></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
