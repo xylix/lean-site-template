@@ -15,17 +15,19 @@
                 </li>
                 {{ if ( isset .Site.Params.navbar "EffectiveAltruism" ) }}
                 <div class="dropdown">
-                 <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="{{ .Site.BaseURL }}">{{ .Site.Params.navbar.EffectiveAltruism }}<span class="caret"></span></a>
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="{{ .Site.BaseURL }}">{{ .Site.Params.navbar.EffectiveAltruism }}<span class="caret"></span></a>
                    <ul class="dropdown-menu">
                      <li class="nav-list-item" ><a href="{{ "key-terms" | absLangURL }}">{{ .Site.Params.navbar.KeyTerms }}</a></li>
                      <li class=nav-list-item ><a href="{{ "organizations" | absLangURL }}">{{ .Site.Params.navbar.Organizations }}</a></li>
                      <li class=nav-list-item ><a href="{{ "reading-material" | absLangURL }}">{{ .Site.Params.navbar.ReadingMaterial }}</a></li>
                    </ul>
-               </div>
-               {{ end }}
+                </div>
+                {{ end }}
+                {{ if ( isset .Site.Params.navbar "Faq" ) }}
                 <li class="nav-item">
                     <a class="nav-link" href="{{ "faq" | absLangURL }}">{{ .Site.Params.navbar.Faq }} </a>
                 </li>
+               {{ end }}
                 <li class="nav-item">
                   <a class="nav-link" href="{{ "activities" | absLangURL }}">{{ .Site.Params.navbar.Activities }} </a>
               </li>
