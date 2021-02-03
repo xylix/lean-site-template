@@ -12,15 +12,23 @@ textarea {
   line-height: 0.5em;
 }*/
 
-.lead, div, p, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+.lead, div, p {
   /*font-family: 'Libre Franklin', serif;*/
   font-family: 'Alice', serif;
   font-weight: 300;
 }
 
-.lead, .banner-section-text,  h2, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+.lead, .banner-section-text, h1 {
   /*font-family: 'Josefin Sans', sans-serif;*/
   font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+h2, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  /*font-family: 'Josefin Sans', sans-serif;*/
+  font-family: 'Poppins', sans-serif;
+  color: #443f3a;
+  font-weight: 300;
 }
 
 .nav-link, #footer-legal {
