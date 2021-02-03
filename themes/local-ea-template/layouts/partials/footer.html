@@ -7,9 +7,10 @@
   </div>
   <div class="row">
     <div id="footer-legal" class="col-12">
-      © {{ .Date.Format "2006" }} {{ .Site.Params.groupinfo.LegalOrgName }}
+      © {{ .Date.Format "2006" }} <a href="mailto:{{ .Site.Params.groupinfo.ContactEmail }}">{{ .Site.Params.groupinfo.LegalOrgName }}</a>
     </div>
   </div>
+  <!-- these buttons don't look that great here
   <div class="row">
     <div id="footer-legal" class="col-12">
       <a href="mailto:{{ .Site.Params.groupinfo.ContactEmail }}"><i class="fas fa-envelope-square fa-3x"></i></a>
@@ -24,6 +25,7 @@
       {{ end }}
     </div>
   </div>
+  -->
 </div>
 </div>
 
