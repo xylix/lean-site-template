@@ -45,7 +45,7 @@ DefaultContentLanguage = "fi"
   readingMaterial = "Reading Material"
   keyTerms = "Key Terms"
   organizations = "Organizations"
-  contact= "Contact"
+  # contact= "Contact"
 
   [Languages.en.pages]
   ## -- PAGE HEADERS -- ##
@@ -119,11 +119,11 @@ DefaultContentLanguage = "fi"
   # readingMaterial = "Luettavaa"
   # keyTerms = "Keskeisiä käsitteitä"
   # organizations = "Organisaatioita"
-  contact= "Ota yhteyttä"
+  # contact= "Ota yhteyttä"
 
   [Languages.fi.pages]
   ## -- PAGE HEADERS -- ##
-  contactPageHeader = "Ota yhteyttä"
+  # contactPageHeader = "Ota yhteyttä"
   aboutEAPageHeader = "Mitä on efektiivinen altruismi?"
 
   [Languages.fi.homepage]
