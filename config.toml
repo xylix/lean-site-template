@@ -76,8 +76,8 @@ DefaultContentLanguage = "fi"
   # Make sure the links start with http:// or https://
   firstButtonLink = "https://www.facebook.com/EffectiveAltruismHY/"
   firstButtonText = "Check us out on Facebook"
-  secondButtonText = "Contact Us"
-  secondButtonLink = "https://oaarne.github.io/lean-site-template/contact/"
+  # secondButtonText = "Contact Us"
+  # secondButtonLink = "https://oaarne.github.io/lean-site-template/contact/"
   # Remove the # before the text to add the optional Meetup button
   # meetupButtonText = "Find us on Meetup"
   fellowshipButtonText = "Apply for the Spring 2021 Fellowship!"  # uncomment to make button visible
@@ -150,8 +150,8 @@ DefaultContentLanguage = "fi"
   # Make sure the links start with http:// or https://
   firstButtonLink = "https://www.facebook.com/EffectiveAltruismHY/"
   firstButtonText = "Facebook"
-  secondButtonText = "Ota yhteyttä"
-  secondButtonLink = "https://oaarne.github.io/lean-site-template/contact/"
+  # secondButtonText = "Ota yhteyttä"
+  # secondButtonLink = "https://oaarne.github.io/lean-site-template/contact/"
   # Remove the # before the text to add the optional Meetup button
   # meetupButtonText = "Find us on Meetup"
   fellowshipButtonText = "Hae kevään 2021 Fellowship:iin!" # uncomment to make button visible
