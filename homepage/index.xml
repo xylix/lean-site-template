@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homepages on EA Helsinki</title>
+    <link>https://www.altruismi.fi/homepage/</link>
+    <description>Recent content in Homepages on EA Helsinki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fi</language>
+    
+	<atom:link href="https://www.altruismi.fi/homepage/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://www.altruismi.fi/homepage/_first_section_text/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.altruismi.fi/homepage/_first_section_text/</guid>
+      <description>Efektiivinen altruismi on maailmanlaajuinen filosofia ja ja liike, joka soveltaa järkeä ja todisteperäistä tietoa löytääkseen kaikkein tehokkaimmat tavat parantaa maailmaa.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.altruismi.fi/homepage/_second_section_text/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.altruismi.fi/homepage/_second_section_text/</guid>
+      <description>Effective Altruism Helsinki on lämminhenkinen yhteisö, joka tukee jäseniään altruististen tavoitteidensa saavuttamisessa. Organisoimme työpajoja, keskustelutapahtumia ja muuta toimintaa, sekä kuukausittaisen meetupin joka kuun ensimmäisenä torstaina. Tapahtumistamme tiedotetaan Facebookissa ja sähköpostilistallamme. Voit liittyä sähköpostilistallemme lähettämällä viestin subscribe ea-helsinki sinun.sposti@osoitteesi.esim osoitteeseen majordomo@helsinki.fi. Tarkempaa tietoa toimintaamme osallistumistesta löytyy täältä.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.altruismi.fi/homepage/_third_section_text/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.altruismi.fi/homepage/_third_section_text/</guid>
+      <description>Koska iso osa yhteisöstämme koostuu opiskelijoista ja hiljattain valmistuneista, keskitymme erityisesti auttamaan toisiamme tekemään uravalintoja, joilla on mahdollisimman positiivinen kokonaisvaikutus. Tutkimusten perusteella uskomme, että valitsemalla urasuuntansa huolellisesti voi tehdä jopa kymmeniä kertoja enemmän hyvää. </description>
+    </item>
+    
+  </channel>
+</rss>

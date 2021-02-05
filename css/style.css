@@ -1,0 +1,143 @@
+body {
+  padding-top: 60px;
+}
+
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*p {
+  line-height: 0.5em;
+}*/
+
+.lead, div, p {
+  /*font-family: 'Libre Franklin', serif;*/
+  font-family: 'Alice', serif;
+  font-weight: 300;
+}
+
+.lead, .banner-section-text, h1 {
+  /*font-family: 'Josefin Sans', sans-serif;*/
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+
+h2, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  /*font-family: 'Josefin Sans', sans-serif;*/
+  font-family: 'Poppins', sans-serif;
+  color: #443f3a;
+  font-weight: 300;
+}
+
+.nav-link, #footer-legal {
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 300;
+}
+
+/* override btn-primary (facebook button) color to better match logo */
+.btn-primary {
+  background-color: #0b879d;
+  border-color: #0b879d;
+}
+
+/* override link color to better match logo */
+a, a:hover {
+  color: #0b879d;
+}
+
+/* ...but don't do that for the facebook and twitter buttons */
+.svg-inline--fa {
+  color: #343a40;
+}
+
+.svg-inline--fa:hover {
+  color: #4582EC;
+}
+
+/* add vertical spacing between jumbotron buttons in case they're laid on top of each other */
+
+.btn-primary, .btn-secondary, .btn-warning {
+  margin-bottom: 0.4em;
+}
+
+/* --- */
+
+.jumbotron {
+  background-color: white;
+  font-weight: 300;
+}
+
+.navbar-brand {
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 300;
+  letter-spacing: 2.75px;
+  font-size: 1.9em;
+}
+
+.row.banner-section {
+  min-height: 350px;
+  position: relative;
+  max-width: 100%;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  color: white;
+  text-shadow: 0 0 8px #000;
+  background-size: cover;
+  background-position: 60%;
+}
+
+.all-center {
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+}
+
+.text-align-left {
+  text-align:left;
+}
+
+.banner-section-text {
+  font-size: 1.8em;
+  font-weight: 300;
+}
+
+.no-gutter, .no-gutter > .row {
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.text-banner {
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+}
+
+.regular-page-container {
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+}
+
+.nav-list-item {
+  font-size: 16px!important;
+  padding-left: 5px;
+}
+
+.input-field {
+  width: 40%;
+}
+
+#ea-main-logo {
+  margin-bottom: 2em;
+  height: 220px;
+}
+
+#footer-legal {
+  padding-top: 1em;
+  font-size: 0.75em;
+  line-height: 0.5em;
+}
