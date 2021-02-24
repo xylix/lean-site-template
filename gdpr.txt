@@ -1,0 +1,81 @@
+Effective Altruism Helsinki
+
+PRIVACY POLICY
+
+This document describes the data we collect, the way we handle it, the third parties involved, and the rights you as the data subject have.
+
+Effective Altruism Helsinki is committed to protecting your privacy. We collect as little as 
+possible to make our sites and organization function. 
+
+
+THE INFORMATION WE COLLECT
+
+On our websites (altruismi.fi) we track the usage of the website by collecting such data as your IP address, URLs visited, the browser and operating system you use and the duration, time and date of use. This data is stored in our website logs. These are required to make the sites function.
+
+We also collect and store the following data:
+
+- Records of email exchanges
+
+- TODO: 
+
+
+THIRD PARTIES
+
+Effective Altruism Helsinki also uses the following Third Party applications/services:
+
+- GitHub Pages - We use Github Pages to host altruismi.fi. According to GitHub "Please note that GitHub may collect User Personal Information from visitors to your GitHub Pages website, including logs of visitor IP addresses, to comply with legal obligations, and to maintain the security and integrity of the Website and the Service."
+You can read GitHub's full privacy policy here: https://docs.github.com/en/github/site-policy/github-privacy-statement
+
+- Airtable - TODO
+
+- Discord - TODO
+
+- Telegram - TODO
+
+TODO: remove these?
+- Google Fonts - Unfortunately we use Google Fonts. You can read more about Google Fonts privacy here: https://developers.google.com/fonts/faq
+
+- YouTube - We use YouTube to host various videos. You can read Google's Privacy Policy here: https://policies.google.com/privacy?hl=en
+
+- We also use Google's Gmail for our emails. This means some of your data (like  your email address) will end up on Google's servers. You can read Google's Privacy Policy on how the use your information. https://policies.google.com/privacy/update
+
+- jquery - Our website uses the jquery javascript framework. This means jquery.com might be able to log your IP address and other details. They don't seem to have a public privacy policy.
+
+
+THE PURPOSE OF DATA COLLECTION
+
+We collect this information to be able to function as a organization, in order to have functioning website(s) and to maintain the security and integrity of the website(s).
+
+
+SECURITY 
+
+Effective Altruism Helsinki is committed to the security of all the information. 
+
+Onni Aarne is the person responsible for keeping your data safe. You can reach him at TODO@altruismi.fi.
+ 
+
+SUBJECT ACCESS REQUEST
+
+You have the right to access your data at any time. Email TODO@altruismi.fi for more information.
+
+
+YOUR RIGHTS AS A DATA SUBJECT
+
+Right of access - you can access all the data we have on you.
+Right of rectification - you can correct any data that we hold on you
+Right to be forgotten - you can delete all the data we have on you.
+Right to object to marketing - we'll only email you marketing related things if you decide to opt in on to it.
+Right to object to automated individual decision-making. 
+And any other rights that have been given to you by your country.
+
+
+POLICY CHANGES
+
+Any policy changes will be posted on this page. 
+
+
+Email: TODO@altruismi.fi
+
+TODO:osoite tähän
+
+Updated Feb 24th 2021.
